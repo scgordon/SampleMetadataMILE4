@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5275.3"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CF010</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/0fcd8f3db5ee4afa9a9484046bbef9ea</alternateIdentifier>
+    <title>Stream and hyporheic carbon dioxide (CO2) measurements in a headwater catchment, Watershed 1, and throughout Lookout Creek watershed at the HJ Andrews Experimental Forest, July 2013 to July 2014</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nicholas</givenName>
+        <givenName>T.</givenName>
+        <surName>Dosch</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Water Resources Engineering</deliveryPoint>
+      </address>
+      <phone/>
+      <electronicMailAddress>ntdosch@gmail.com</electronicMailAddress>
+      <electronicMailAddress>doschn@onid.orst.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>https://www.fs.fed.us/pnw/lwm/aem/people/wondzell.html</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Roy</givenName>
+        <surName>Haggerty</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;Wilkinson 104;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-1210</phone>
+      <electronicMailAddress>haggertr@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://ceoas.oregonstate.edu/profile/haggerty/</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <pubDate>2017-06-29</pubDate>
+    <abstract>
+      <para>We examined the spatial and temporal variability of stream carbon dioxide (CO2) in a headwater catchment. We measured stream and hyporheic pCO2 at at 30-minute intervals over 11 months in 95.9-ha Watershed 1, HJ Andrews Experimental Forest. We also measured stream temperature, pH and alkalinity which we used to calculate CO2 at monthly intervals from July 2013 through July 2014 at 38 locations across the 6400-ha HJ Andrews Experimental Forest.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Aquatic ecosystems</keyword>
+      <keyword keywordType="theme">Carbon</keyword>
+      <keyword keywordType="theme">Carbon cycling</keyword>
+      <keyword keywordType="theme">Hydrologic processes</keyword>
+      <keyword keywordType="theme">Hyporheic zone</keyword>
+      <keyword keywordType="theme">Surface water</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released to the public domain under the Creative Commons license CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/).   Creative Commons license CC0 1.0 - No Rights Reserved states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. </para>
+      <para>It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. </para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. </para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=CF010</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>30-minute pCO&lt;subscript&gt;2&lt;/sub &gt; data was collected within the Watershed 1 well network at the base of watershed 1. Stream pH, temperature, and alkalinity measurements were made across the Lookout Creek drainage network in HJ Andrews Experimental Forest.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.26109000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.11718000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.29470000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20147000</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2013-07-22</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-07-10</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>To examine the spatial and temporal variability of stream carbon dioxide (CO<subscript>2</subscript>) and the drivers of these variations in a headwater catchment for improved spatial and temporal scaling of stream pCO<subscript>2</subscript> for watershed dissolved inorganic carbon flux estimates.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2013-08-06</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data imported using XLS programs.  QC run, data structures created on SQL and data appended to these structures.  No CSV file created as data is restricted due to publication issues.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2014-09-26</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data are being released per request to PI on 11/2/2016 and PI responded yes on 11/5/2016.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2017-06-29</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - CF010</para>
+          <para> 30-minute pCO<subscript>2</subscript> data were collected GMM220 series CO<subscript>2</subscript> probes following the method in Johnson et al. [2010]. Probes were sealed in gas permeable PTFE sleeves and connected to external data loggers where mole fraction pCO<subscript>2</subscript> (ppmv) was measured at 5-min intervals, averaged and recoded at 30-min intervals. One probe was placed in the WS01 stream attached to a stryofoam float at a depth of 6 cm and another in a riparian well located 0.4 m from the stream edge at a depth of 65 cm below the water table.</para>
+          <para> Water samples for the analysis of stream alkalinity were collected in 250 mL HDPE (high-density polyethylene) bottles (Nalgene, Inc., United States).  Bottles were acid washed according to the Oregon State University and U.S. Forest Service Cooperative Chemical Analytical Laboratory (CCAL) quality assurance plan (CCAL, 2013).  Prior to collection, bottles were rinsed three times with stream water by filling the sample container 1/4 full, then shaking vigorously with the lid loosely tightened to the bottle, making sure to rinse the inside walls, threads, and cap of the bottle.  Samples were collected from the thalweg in locations deep enough to fully submerge the bottle while the sample collector stood downstream of the sampling location. In larger streams, samples were taken as close to the thalweg as possible and always collected from locations with strong downstream transport, thereby avoiding stagnant pools or lateral cavities. Sample bottle caps were secured underwater to minimize air collected with the sample and to minimize the amount of sediment or other particulates collected with the water sample. Nitrile gloves were worn during sampling to minimize sample contamination. After collection, samples were placed on ice in a dark container until laboratory processing. </para>
+          <para> Stream pH and temperature were measured at sample sites using a YSI Model 63 handheld pH, conductivity, salinity and temperature system (YSI, Inc., United States).  The meter was calibrated for pH at the beginning of each field day with a two point calibration at pH 7.0 and 10.0, bracketing the range of expected field pH values. When making field measurements, the probe was placed in the thalweg of the stream, slightly downstream from the location of water sampling. The meter was given a minimum of 10 minutes to stabilize prior to reading. The probe was positioned so that the pH electrode was suspended in the water column and not resting in mud or sediment.</para>
+        </description>
+        <instrumentation>Vaisala GMM 220 NDIR CO&lt;subscript&gt;2&lt;/subscript&gt; module, International polymer engineering PTFE sleeve, YSI 63 pH/Temperature/Conductivity probe</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - CF010</para>
+          <para>Analytical lab work was conducted at the Institute for Water and Watersheds Collaboratory at Oregon State University. Carbonate alkalinity was determined using a Radiometer TIM840 AutoTitrator (Radiometer Analytical, SAS, France)  according to CCAL procedure 10C.0 by titrating 100 mL of unfiltered sample to a pH of 4.5 with 0.02 N H<subscript>2</subscript>SO<subscript>4</subscript> (CCAL, 2013). Detection limits associated with this method are 0.2 mg CaCO<subscript>3</subscript> L<superscript>-1</superscript>. Samples were processed within 7 days of field collection. </para>
+        </description>
+        <instrumentation>Radiometer TIM840 AutoTitrator</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - CF010</para>
+          <para>30-minute stream and hyporheic CO<subscript>2</subscript>-probe readings were corrected for deviations in temperature, depth and barrometric pressure from calibration conditions following Johnson et al. (2010).</para>
+          <para>Stream pCO<subscript>2</subscript> was calculated with the CO2SYS program (van Heuven et al., 2011) using field measurements of temperature and pH, and lab measurements of alkalinity. This calculation is based on equilibrium concentrations of the carbonate species in water at a given pressure, temperature, and pH. The dissociation constants of the carbonate species used for this calculation were those from Millero (1979) for freshwater systems. </para>
+        </description>
+        <instrumentation>CO2SYS for MATLAB, can be downloaded at: http://cdiac.ornl.gov/oceans/co2rprt.html</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>&lt;para&gt;The 30-minute pCO&lt;subscript&gt;2&lt;/sub &gt; data was collected within the watershed 1 well network situated in a second-order stream reach of Watershed 1 (WS01) in the HJ Andrews Experimental Forest (HJA) (44Â°12â28.0ââN, 122Â°15â30.0ââW), in the Western Cascades of Central Oregon, USA. WS01 is a steep catchment draining 95.9 ha of temperate, second-growth conifer forest. The catchment is underlain by bedrock of exclusively volcanic origin, largely tuffs and breccias, and is free of carbonates. Weathering in WS01 has led to locally steep valley walls while the valley floor is filled by colluvial deposits that rarely exceed 2 m in depth. 
+&lt;para&gt;Basin-wide measurtments were collected from across the Lookout creek drainage network in the HJA (44Â°14âN, 122Â°11âW), in the Western Cascades of Central Oregon, USA. The boundary of HJA is delineated by the Lookout Creek watershed, a 64 km&lt;superscript&gt;2&lt;/superscript&gt; drainage basin ranging in elevation from 410 m to 1630 m. Lookout Creek drains a network of forested headwater streams and is a tributary of Blue River and the McKenzie River. 38 sample sites at were established across the Lookout Creek drainage network were at a variety of sites that captured the diverse natural and managed landscape of the HJA. Sample sites were chosen to ensure they included streams from a range of basin sizes, elevations, discharge regimes, subclimates and forest management histories. Multiple sample sites were placed along Lookout Creek and its major tributaries and were sampled as longitudinal transects from the highest upstream point to the lowest downstream point accessible by truck. Samples were collected at all gauge stations and from all experimental watersheds. Major confluences were included in sampling design, with sample sites placed above and below these locations.&lt;/para&gt;&lt;/para&gt; &lt;para&gt;Sampling frequency: 30 minutes and monthly&lt;/para&gt;</description>
+        </studyExtent>
+        <samplingDescription>
+          <para>We examined the spatial and temporal variability of stream and hyporheic partial pressure of carbon dioxide (pCO<subscript>2</subscript>) and the drivers of these variations in a headwater catchment. To examine the temporal dynamics of stream and hyporheic pCO<subscript>2</subscript>, we measured pCO<subscript>2</subscript> at high temporal resolution (30-minute interval) at seasonal and event scales in the in the stream and in a hyporheic well in the Watershed 1 well network in the HJ Andrews Experimental Forest. Stream and hyporheic pCO<subscript>2</subscript> were observed for 11 months, from 27 August 2013 to 10 July 2014.</para>
+          <para>To examine spatial variation and drivers, we measured stream pCO<subscript>2</subscript> at monthly intervals from July 2013 through July 2014 at 38 locations across the 6400-ha HJ Andrews Experimental Forest. Synoptic field measurements and water samples were collected 12 times over a 13-month study period from July 2013 to July 2014. Sample sites were established across the Lookout Creek drainage network at sites that captured the diverse natural and managed landscape of the HJA. Sample sites were chosen to ensure they included streams from a range of basin sizes, elevations, discharge regimes, subclimates and forest management histories.Sampling occurred at approximately monthly intervals; no samples were collected during April 2014. Low elevation sites were sampled during all 12 sample periods. High elevation sites were sometimes inaccessible due to snowfall and were therefore not sampled during some winter months. Streams that were designed as longitudinal transects were sampled from high elevation to low. Sites were sampled at approximately the same time of day over the study period.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 well network</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25833300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25833300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20777800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20777800</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Dosch stream sampling sites at the HJ Andrews Experimental Forest</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26109000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.11718000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.29470000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20147000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24989000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24989000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20451000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20451000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25018000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25018000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20504000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20504000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25105000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25105000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20520000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20520000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25131000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25131000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20507000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20507000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25191000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25191000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20530000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20530000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25253000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25253000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20534000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20534000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 7</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25302000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25302000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20565000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20565000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 8</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25368000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25368000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20575000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20575000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 9</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25423000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25423000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20574000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20574000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 10</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25482000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25482000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20581000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20581000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 11</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25514000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25514000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20609000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20609000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 12</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25539000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25539000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20612000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20612000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 13</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25632000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25632000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20636000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20636000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 14</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25713000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25713000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20704000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20704000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 Dosch stream sample site 15</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25768000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25768000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20704000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20704000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 2 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24097000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24097000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20164000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20164000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 2 Dosch stream sample site 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24522000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24522000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21201000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21201000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 2 Dosch stream sample site 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24930000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24930000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21427000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21427000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 3 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24294000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24294000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21953000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21953000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 6 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18079000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18079000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26149000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26149000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 7 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17537000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17537000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26469000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26469000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 8 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17097000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17097000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26632000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26632000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 9 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25894000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25894000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20147000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20147000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 10 Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26109000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.26109000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21702000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21702000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.11718000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.11718000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20756000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20756000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.11781000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.11781000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22220000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22220000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15955000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15955000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23187000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23187000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18631000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18631000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23258000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23258000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21742000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21742000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23089000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23089000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25725000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25725000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21002000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21002000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek Dosch stream sample site 7</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25995000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25995000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20785000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20785000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16468000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16468000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21619000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21619000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek Dosch stream sample site 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16771000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16771000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21768000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21768000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek Dosch stream sample site 3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16817000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16817000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22713000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22713000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>McRae Creek Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16440000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16440000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26073000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26073000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>McRae Creek Dosch stream sample site 2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20743000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20743000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23409000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23409000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Cold Creek Dosch stream sample site 1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12386000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12386000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.29470000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.29470000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>No Name Creek Dosch stream sample site 1 off FS Rd 320 north of unit L503</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18061000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18061000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25823000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25823000</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <onlineUrl>http://fw.oregonstate.edu/content/sherri-johnson</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hannah</givenName>
+          <surName>Gosnell</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Geosciences;Oregon State University;260 Wilkinson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>541-737-1222</phone>
+        <electronicMailAddress>gosnellh@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/gosnell/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Matthew</givenName>
+          <givenName>G</givenName>
+          <surName>Betts</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201E Richardson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>(541) 737-3841</phone>
+        <electronicMailAddress>matt.betts@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://fes.forestry.oregonstate.edu/people?path=people/betts-matthew</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="CF01001">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>CF01001</entityName>
+      <entityDescription>Stream and Hyporheic carbon dioxide partial pressure (pCO2) in lower Watershed 1, HJA: </entityDescription>
+      <physical>
+        <objectName>CF01001.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5275/3/b22fffa6e1b4075a8a013f30d23f0d43</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-06-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-07-09</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="CF01001.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CF010</code>
+                    <definition>FSDB Database code CF010</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS1WN</code>
+                    <definition>Watershed 1 well network</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W101</code>
+                    <definition>Watershed 1 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W102</code>
+                    <definition>Watershed 1 Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W103</code>
+                    <definition>Watershed 1 Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W104</code>
+                    <definition>Watershed 1 Dosch stream sample site 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W105</code>
+                    <definition>Watershed 1 Dosch stream sample site 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W106</code>
+                    <definition>Watershed 1 Dosch stream sample site 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W107</code>
+                    <definition>Watershed 1 Dosch stream sample site 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W108</code>
+                    <definition>Watershed 1 Dosch stream sample site 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W109</code>
+                    <definition>Watershed 1 Dosch stream sample site 9</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W110</code>
+                    <definition>Watershed 1 Dosch stream sample site 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W111</code>
+                    <definition>Watershed 1 Dosch stream sample site 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W112</code>
+                    <definition>Watershed 1 Dosch stream sample site 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W113</code>
+                    <definition>Watershed 1 Dosch stream sample site 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W114</code>
+                    <definition>Watershed 1 Dosch stream sample site 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W115</code>
+                    <definition>Watershed 1 Dosch stream sample site 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W201</code>
+                    <definition>Watershed 2 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W202</code>
+                    <definition>Watershed 2 Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W203</code>
+                    <definition>Watershed 2 Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W301</code>
+                    <definition>Watershed 3 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W601</code>
+                    <definition>Watershed 6 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W701</code>
+                    <definition>Watershed 7 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W801</code>
+                    <definition>Watershed 8 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W901</code>
+                    <definition>Watershed 9 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W1001</code>
+                    <definition>Watershed 10 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO01</code>
+                    <definition>Lookout Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO02</code>
+                    <definition>Lookout Creek Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO03</code>
+                    <definition>Lookout Creek Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO04</code>
+                    <definition>Lookout Creek Dosch stream sample site 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO05</code>
+                    <definition>Lookout Creek Dosch stream sample site 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO06</code>
+                    <definition>Lookout Creek Dosch stream sample site 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO07</code>
+                    <definition>Lookout Creek Dosch stream sample site 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MK01</code>
+                    <definition>Mack Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MK02</code>
+                    <definition>Mack Creek Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MK03</code>
+                    <definition>Mack Creek Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR01</code>
+                    <definition>McRae Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR02</code>
+                    <definition>McRae Creek Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC01</code>
+                    <definition>Cold Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NN01</code>
+                    <definition>No Name Creek Dosch stream sample site 1 off FS Rd 320 north of unit L503</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.SAMPLE_DATETIME">
+          <attributeName>SAMPLE_DATETIME</attributeName>
+          <attributeDefinition>Date and time (PST) of pCO2 reading</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">8/27/2013 5:00:00 PM</minimum>
+                  <maximum exclusive="false">7/9/2014 11:30:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.S_PCO2">
+          <attributeName>S_PCO2</attributeName>
+          <attributeDefinition>Stream pCO2 measured in approximate center of Watershed 1 well network between the E and F transects</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>parts per million</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">425.0000</minimum>
+                  <maximum exclusive="false">3565.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.S_PCO2CODE">
+          <attributeName>S_PCO2CODE</attributeName>
+          <attributeDefinition>Stream reading estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Data good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable data - Probe may have been unsubmerged from stream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.H_PCO2">
+          <attributeName>H_PCO2</attributeName>
+          <attributeDefinition>Hyporheic pCO2 measured in well G3</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>parts per million</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">3857.0000</minimum>
+                  <maximum exclusive="false">16439.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01001.H_PCO2CODE">
+          <attributeName>H_PCO2CODE</attributeName>
+          <attributeDefinition>Hyporheic reading estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Data good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing data - Probe removed from well</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated data - Based on moving average</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="CF01001.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>CF01001.SAMPLE_DATETIME</attributeReference>
+            <attributeReference>CF01001.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="CF01001.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>CF01001.SAMPLE_DATETIME</attributeReference>
+            <attributeReference>CF01001.DBCODE</attributeReference>
+            <attributeReference>CF01001.ENTITY</attributeReference>
+            <attributeReference>CF01001.H_PCO2CODE</attributeReference>
+            <attributeReference>CF01001.SITECODE</attributeReference>
+            <attributeReference>CF01001.S_PCO2CODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>15182</numberOfRecords>
+    </dataTable>
+    <dataTable id="CF01002">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>CF01002</entityName>
+      <entityDescription>Stream pH, temperature, alkalinity and computed pCO2 at 38 sites in HJA: </entityDescription>
+      <physical>
+        <objectName>CF01002.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5275/3/f7f24c1865c04ae1c3dad58ff55b2631</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-07-22</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-07-10</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="CF01002.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CF010</code>
+                    <definition>FSDB Database code CF010</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS1WN</code>
+                    <definition>Watershed 1 well network</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W101</code>
+                    <definition>Watershed 1 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W102</code>
+                    <definition>Watershed 1 Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W103</code>
+                    <definition>Watershed 1 Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W104</code>
+                    <definition>Watershed 1 Dosch stream sample site 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W105</code>
+                    <definition>Watershed 1 Dosch stream sample site 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W106</code>
+                    <definition>Watershed 1 Dosch stream sample site 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W107</code>
+                    <definition>Watershed 1 Dosch stream sample site 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W108</code>
+                    <definition>Watershed 1 Dosch stream sample site 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W109</code>
+                    <definition>Watershed 1 Dosch stream sample site 9</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W110</code>
+                    <definition>Watershed 1 Dosch stream sample site 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W111</code>
+                    <definition>Watershed 1 Dosch stream sample site 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W112</code>
+                    <definition>Watershed 1 Dosch stream sample site 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W113</code>
+                    <definition>Watershed 1 Dosch stream sample site 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W114</code>
+                    <definition>Watershed 1 Dosch stream sample site 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W115</code>
+                    <definition>Watershed 1 Dosch stream sample site 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W201</code>
+                    <definition>Watershed 2 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W202</code>
+                    <definition>Watershed 2 Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W203</code>
+                    <definition>Watershed 2 Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W301</code>
+                    <definition>Watershed 3 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W601</code>
+                    <definition>Watershed 6 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W701</code>
+                    <definition>Watershed 7 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W801</code>
+                    <definition>Watershed 8 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W901</code>
+                    <definition>Watershed 9 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W1001</code>
+                    <definition>Watershed 10 Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO01</code>
+                    <definition>Lookout Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO02</code>
+                    <definition>Lookout Creek Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO03</code>
+                    <definition>Lookout Creek Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO04</code>
+                    <definition>Lookout Creek Dosch stream sample site 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO05</code>
+                    <definition>Lookout Creek Dosch stream sample site 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO06</code>
+                    <definition>Lookout Creek Dosch stream sample site 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO07</code>
+                    <definition>Lookout Creek Dosch stream sample site 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MK01</code>
+                    <definition>Mack Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MK02</code>
+                    <definition>Mack Creek Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MK03</code>
+                    <definition>Mack Creek Dosch stream sample site 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR01</code>
+                    <definition>McRae Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR02</code>
+                    <definition>McRae Creek Dosch stream sample site 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC01</code>
+                    <definition>Cold Creek Dosch stream sample site 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NN01</code>
+                    <definition>No Name Creek Dosch stream sample site 1 off FS Rd 320 north of unit L503</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.RUN">
+          <attributeName>RUN</attributeName>
+          <attributeDefinition>Sample collection run number (1-12)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">12.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.FIELD_DATETIME">
+          <attributeName>FIELD_DATETIME</attributeName>
+          <attributeDefinition>field measurement date and time</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1/28/2013 10:30:00 AM</minimum>
+                  <maximum exclusive="false">7/11/2014 8:25:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.PH">
+          <attributeName>PH</attributeName>
+          <attributeDefinition>stream pH</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>pH units</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.6000</minimum>
+                  <maximum exclusive="false">8.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.TEMP">
+          <attributeName>TEMP</attributeName>
+          <attributeDefinition>stream temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.7000</minimum>
+                  <maximum exclusive="false">19.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.LAB_DATE">
+          <attributeName>LAB_DATE</attributeName>
+          <attributeDefinition>Date of laborotory measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">7/26/2013 12:00:00 AM</minimum>
+                  <maximum exclusive="false">7/11/2014 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.ALK_CACO3">
+          <attributeName>ALK_CACO3</attributeName>
+          <attributeDefinition>laboratory determined alkalinity</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.5000</minimum>
+                  <maximum exclusive="false">36.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.CALC_PCO2">
+          <attributeName>CALC_PCO2</attributeName>
+          <attributeDefinition>calculated stream pCO2</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>parts per million</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">147.0000</minimum>
+                  <maximum exclusive="false">8154.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.ESTCODE">
+          <attributeName>ESTCODE</attributeName>
+          <attributeDefinition>Qualifier of chemistry measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Data good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable data - See Notes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing data  - See Notes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01002.NOTE">
+          <attributeName>NOTE</attributeName>
+          <attributeDefinition>Note about chemistry measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">varchar(150)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Note about chemistry measurement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="CF01002.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>CF01002.RUN</attributeReference>
+            <attributeReference>CF01002.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="CF01002.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>CF01002.DBCODE</attributeReference>
+            <attributeReference>CF01002.ENTITY</attributeReference>
+            <attributeReference>CF01002.ESTCODE</attributeReference>
+            <attributeReference>CF01002.RUN</attributeReference>
+            <attributeReference>CF01002.SITECODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>456</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="mg/l" id="milligrams per liter"
+          multiplierToSI="0.001" name="milligramPerLiter"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>milligrams per liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ppm" id="parts per million"
+          multiplierToSI="0.001" name="partsPerMillion"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>parts per million</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ph" id="pH units" name="pH"
+          parentSI="unknown" unitType="undefined">
+          <stmml:description>Scale used for pH measurements</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

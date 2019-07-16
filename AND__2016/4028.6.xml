@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.4028.6"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CF004</alternateIdentifier>
+    <title>Stream, hyporheic, and ground water chemistry of McRae Creek in the Andrews Experimental Forest, 1989 to 1992</title>
+    <creator>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2016-12-20</pubDate>
+    <abstract>
+      <para>Measurements of nitrogen concentrations from grab samples collected from McRae Ck, and from a network of shallow wells located adjacent to the stream. All samples were analyzed for NO3 and NH4. Some samples include additional data such as DON and Total N, and sometimes temperature and dissolved oxygen concentrations were measured at the time the water samples were collected for analysis.
+
+Data were collected from September 1989 to September 1992 on an irregular basis to sample both baseflow periods and storm events across seasons of the year.
+
+Water samples were collected from the stream as grab samples; samples from shallow wells were pumped into a small flask using a vacuum pump and then transferred into a sample bottle.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Aquatic ecosystems</keyword>
+      <keyword keywordType="theme">Groundwater processes</keyword>
+      <keyword keywordType="theme">Hyporheic zone</keyword>
+      <keyword keywordType="theme">Nitrogen cycling</keyword>
+      <keyword keywordType="stratum">Riparian ecosystems</keyword>
+      <keyword keywordType="theme">Storms</keyword>
+      <keyword keywordType="theme">Stream ecology</keyword>
+      <keyword keywordType="theme">Subsurface flow</keyword>
+      <keyword keywordType="theme">Water chemistry</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>Greenberg, A. E., J. J. Connors, and D. Jenkins (eds).  1980.  Standard methods for the examination of water and wastewater. American Public Health Association, Washington D.C.15th edition. 1134 p.</para>
+      <para>
+Wondzell, S. M. and F. J. Swanson. 1996.  Seasonal and storm dynamics of the hyporheic zone of a 4th-order mountain stream. I: Hydrologic processes.  The J. of the North American Benthological Society 15:3-19</para>
+      <para>
+Wondzell, S., and F. J. Swanson.  1996.  Seasonal and storm dynamics of the hyporheic zone of a 4th-order mountain stream. II: Nitrogen cycling.  The Journal of the North American Benthological Society 15:20-34</para>
+      <para>
+Wondzell, S.  1994.  Flux of ground water and nitrogen through the floodplain of a fourth-order stream.         Ph.D. Thesis.  Oregon State University, Corvallis OR.</para>
+      <para>The following samples are flagged (variable name FLAG, coded XX) as non-typical in the data set.  You can find a short description of each sample below: </para>
+      <para>Samples 117, 128, 129, 130, 181, 182, 197, 201, 202, 203, 216, 232, 263, 324, 398, 420, 421, 792, 795, 803, 804:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>117 stream water sample collected with vacuum flask to test for sample contamination (compare with sample 116)</para>
+          </listitem>
+          <listitem>
+            <para>128 grab sample from McRae Creek collected 100 m downstream of 116 to look for spatial variability in stream nitrogen concentration.  Collected in a zone of complex channels braided around many small islands vegetated with alder (Alnus rubra), in an area affected by log jams. (compare with sample 116)</para>
+          </listitem>
+          <listitem>
+            <para>129 grab sample from McRae Creek collected 225 m downstream of 116 to look for spatial variability in stream nitrogen concentration.  Collected at the bottom of a reach with very dense alder forming complete canopy closure over the stream channel. (compare with sample 116)</para>
+          </listitem>
+          <listitem>
+            <para>130 grab sample from McRae Creek collected 275 m downstream of 116 to look for spatial variability in stream nitrogen concentration.  Collected below the junction with the tiny tributary channel denoted Trib-00 (compare with sample 116)</para>
+          </listitem>
+          <listitem>
+            <para>181 grab sample collected from soil pit located on the terrace - eventually a well was established through the bottom of this soil pit becoming collection location PA72</para>
+          </listitem>
+          <listitem>
+            <para>182 grab sample collected from Trib-00 but at its mouth where it joins McRae Creek (compare to 191 grab sample collected from Trib-00 at the head of the alluvial fan built onto the McRae Creek floodplain which is the normal sample location for Trib-00)</para>
+          </listitem>
+          <listitem>
+            <para>197 (like sample 181) grab sample collected from soil pit located on the terrace - eventually a well was established through the bottom of this soil pit becoming collection location PA72</para>
+          </listitem>
+          <listitem>
+            <para>201 grab sample from Trib-A2 collected down tributary channel, far from normal collection location</para>
+          </listitem>
+          <listitem>
+            <para>202 (like sample 181) grab sample collected from soil pit located on the terrace - eventually a well was established through the bottom of this soil pit becoming collection location PA72</para>
+          </listitem>
+          <listitem>
+            <para>203 grab sample from seep adjacent to Well W60A - too little water in well for sample</para>
+          </listitem>
+          <listitem>
+            <para>216 stream water sample collected with vacuum flask to test for sample contamination (compare with sample 215)</para>
+          </listitem>
+          <listitem>
+            <para>232 pumped sample of D.I. collected in the field, stored on ice, transported to lab, filtered and analyzed to check for possible sample contamination</para>
+          </listitem>
+          <listitem>
+            <para>263 stream water sample collected with vacuum flask to test for sample contamination (compare with sample 266)</para>
+          </listitem>
+          <listitem>
+            <para>324 collected from McRae Creek adjacent to well PN31</para>
+          </listitem>
+          <listitem>
+            <para>398 collected from McRae Creek adjacent to well PN31</para>
+          </listitem>
+          <listitem>
+            <para>420 repeat pumped sample from W07A (compare with sample 434)</para>
+          </listitem>
+          <listitem>
+            <para>421 stream water sample collected with vacuum flask to test for sample contamination (compare with sample 435)</para>
+          </listitem>
+          <listitem>
+            <para>792 sample bottle filled with D.I. water from laboratory sink and mixed into sampling stream.  Not exposed to field conditions, but filtered through filtering funnel with Whatmann GF/C filter to check for contamination in filtering process</para>
+          </listitem>
+          <listitem>
+            <para>795 originally collected in a leaky sample bottle and transfered to a second non-leaky bottle</para>
+          </listitem>
+          <listitem>
+            <para>803 sample bottle filled by pumping D.I. water from 1.0 liter HDPE bottle through the vacuum flask in the field.  Sample bottle rinsed with pumped water, and final sample collected, stored on ice, transported to lab, filtered and analyzed to check for contamination</para>
+          </listitem>
+          <listitem>
+            <para>804 repeat grab sample from McRae Creek (compare with sample 834)</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para>Samples 278-321 and 348-392 were collected in a well network located on Lookout Creek in conjunction with a stream fertilization experiment and are not included in this data set, despite sequential numbering.  Additionally, samples 318-321 and 375-382 were collected for an experiment to test the effect of freezing on NH4 and NO3 concentrations.</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Wondzell, Steve. 1994. Flux of ground water and nitrogen through the floodplain of a fourth-order stream. Corvallis, OR: Oregon State University. 113 p. Ph.D. dissertation.</para>
+      <para>Wondzell, Steven M.; Swanson, Frederick J. 1996. Seasonal and storm dynamics of the hyporheic zone of a 4th-order mountain stream. I: Hydrologic processes. Journal of the North American Benthological Society. 15(1): 3-19.</para>
+      <para>Wondzell, Steven M.; Swanson, Frederick J. 1996. Seasonal and storm dynamics of the hyporheic zone of a 4th-order mountain stream. II: Nitrogen cycling. Journal of the North American Benthological Society. 15(1): 20-34.</para>
+      <para>
+        <emphasis>Related Files</emphasis>
+      </para>
+      <para>Title: Well Location Map</para>
+      <para>Description: Locations of wells</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/hf10/welltran.jpg</para>
+      <para>Title: Well Locations on gravel bar</para>
+      <para>Description: Well Locations on gravel bar</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/hf10/gravelba.jpg</para>
+    </additionalInfo>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=CF004&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1989-09-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1993-03-25</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>To monitor changes in nitrogen concentrations in stream water, hyporheic water and groundwater among seasons of the year and during storms in the fall, winter and spring.  Data were combined with estimated fluxes of hyporheic water and groundwater through the study site to estimate nitrogen inputs to the stream reach.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2000-02-22</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Moved database to SQL server</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2005-04-13</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Restructured the dataset to prepare for upload into PASTA.  Added DBCODE and ENTITY.  Created a DATE_TIME field for year, mont,h, day and time.  Deleted year and julian day.  Added NA to all coded fields to replace blanks.  Created an enumerated field out of SEASON.  Needed to create a primary key; date_time, field_id, duplicate.  Ran QC.  Created new SQL structure and appended data.  Need to create new CSV files.</changeScope>
+        <oldValue>Version6</oldValue>
+        <changeDate>2016-12-20</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-5952-4528</userId>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - CF004</para>
+          <para>
+            <emphasis>Wells and well transects:</emphasis>
+          </para>
+          <para>
+Two types of wells were used in this study: observation wells to measure water table elevations and sample wells to collect interstitial water.  Casings for observation wells were made from PVC pipe and screened by drilling 0.32 cm diameter holes into the bottom 50 cm of each PVC pipe, at an approximate density of 1 hole/cm<superscript>2</superscript>.  Casings for sample wells were constructed from 45-cm lengths of 2.54-cm diameter, porous, high density polyethylene pipe (HDPE) with a mean pore diameter of 20 Âµm.  A length of PVC pipe was added to extend the casing above the ground surface.  </para>
+          <para>
+ All wells were driven by hand because the study site had no road access.  Large cobbles and boulders throughout the study site hindered well placement so that the deepest wells penetrated only 2.5 m below the ground surface.  Wherever possible, wells were placed in holes driven at least 50 cm below the surface of the water table at summer baseflow.  Holes were back filled with the soil originally removed and, if necessary, additional fill was taken from nearby soil pits or recent root-throw pits.  Following installation of the wells, back fill was washed and entrained sediments were removed from the well casing by repeated pumping.  </para>
+          <para>
+A single transect of wells was established during late summer in 1989 as a pilot study.  Additional transects of wells were installed during the summer of 1990 and an additional 18 wells were established on, and adjacent to, the gravel bar during 1991 and 1992.  Nine sample wells were placed adjacent to observation wells so that water table levels could be measured concurrently with the collection of water samples during storm events.   During the summer of 1991, about half of the observation wells were retro-fitted with evacuation tubes so that water samples could be collected over a much larger area during base flow periods.  </para>
+          <para>
+            <emphasis>Water samples and chemical analyses:</emphasis>
+          </para>
+          <para>
+Water samples were collected from wells to compare changes in dissolved nitrogen concentrations among seasons and within storm events.  Sampling was concentrated from mid summer to early fall and during fall storms.  Samples were also collected in mid winter, in early spring, and during a single late-winter storm.  Water table depths were recorded from observation wells less then 24 h before collecting base flow water samples after which wells were pumped dry and allowed to refill before collecting samples.  Dissolved oxygen and temperature were also measured in each observation well using a YSI Model 51A dissolved oxygen meter and a YSI probe in 1991 and 1992.  Water samples were only collected from the sample wells during storms because observation wells were used to monitor changes in water table levels and withdrawing water to collect samples would have changed the water level in the wells.  Twenty-four hours before a forecasted storm, all sample wells were pumped dry and allowed to refill.  Wells were not re-evacuated between sample collections during a storm.  </para>
+          <para>
+Surface water samples (stream, tributaries, and secondary channel) were collected as Agrab samples@, holding a clean, acid washed HDPE bottle just under the surface of the stream and allowing it to fill.  Bottles were rinsed 3 times with water samples before collecting the final sample.  Head space above the water sample was evacuated and samples were stored on ice.  Water samples were collected from wells using a vacuum flask.  All wells were instrumented with a permanent evacuation tube to limit contamination and the introduction of foreign materials into the wells when sampling during storms.  To collect a sample, the evacuation tube was connected to the vacuum flask and a vacuum was applied using a small hand pump.  The vacuum flask was never rinsed with sample water because if a small amount of water was evacuated from the well and used to rinse the flask, large amounts of sediment would be stirred up in the well. Thus, the entire sample was collected immediately.  Samples were collected in clean, acid washed HDPE bottles that were rinsed with sample water from the vacuum flask before transferring the final sample to the bottle.  Head space above the water sample was evacuated and samples were stored on ice.  The vacuum flask was rinsed 3 times with D.I. water immediately before collecting a sample from the next well.  </para>
+          <para>
+Samples were categorized by landform, season, and a storm index variable (FLOINDEX).  Samples from wells were categorized by landform on which the well was located (STREAMBED, GRAVEL (gravel bar), FLOOD (flood plain), TERRACE, FAN (alluvial fan) and SEEP (a well located in a seep or spring at the base of the terrace). and grab samples of surface water were categorized as either STREAM, TRIB (tributary), or STLET (secondary channel).  Samples from early fall, collected before the start of the rainy season, were considered summer samples.  Each season was subdivided into periods of base flow or storm flow.  The period of annual low flow in late summer was designated as LOW (low base flow) to distinguish from other base flow periods.  Hydrographs of either stream discharge or well records of water table elevations were used to subdivided non-baseflow periods as either the RISE (rising leg), PEAK, and FALL (falling leg) of the hydrograph.  Pre-storm samples were collected immediately before the storm and post-storm samples were collected once the stream returned to base flow conditions after the end of the storm.  These samples were designated as PRE and POST, respectively, but were also used in analyses of base flow trends.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - CF004</para>
+          <para>Samples were filtered with acid washed glass microfibre filters (Whatman GF/C, retention of 1.2 Âµm).  The analysis for total Kjeldahl nitrogen (TKN) generally followed the Kjeldahl procedure using a H<subscript>2</subscript>SO<subscript>4</subscript> digestant and CuSO<subscript>4</subscript>/KCl catalyst,  but with Nessler finish (Greenberg et al. 1980).  NO<subscript>3</subscript>
+            <superscript>-</superscript> and NH<subscript>4</subscript>
+            <superscript>+</superscript> were analyzed on an Technicon Autoanalyzer II.  The analysis for NO<subscript>3</subscript>
+            <superscript>-</superscript> (procedure 418F, Greenberg et al. 1980) was modified following Technicon's Industrial Method No. 100-70W distributed in 1973 (Technicon Industrial Systems, Tarrytown NY 10591).  The analysis for NH<subscript>4</subscript>
+            <superscript>+</superscript> followed procedure 417F of Greenberg et al. (1980).  Dissolved organic nitrogen (DON) was the difference between TKN and NH<subscript>4</subscript>
+            <superscript>+</superscript>.  Total dissolved nitrogen (TDN) was the sum of NO<subscript>3</subscript>
+            <superscript>-</superscript>, NH<subscript>4</subscript>
+            <superscript>+</superscript>, and DON.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The McRae Creek study site was about 200 m long and 80 m wide and was located along the eastern bank of an unconstrained stream reach (see Figure).  A complex of landforms is present within the study site, including a recently formed gravel bar, older floodplain surfaces, and terraces.  Sediment of the gravel bar and stream channel is a poorly sorted mix of sand, gravel, cobbles, and boulders more than 1.5 m in depth.  A layer of rounded, stream-worked cobbles and boulders, 10 to 50 cm in diameter, is present at 1 to 3 m depth within the floodplain.  The sediment overlying this layer varies in texture from loam to fine sand.  A small seep is present along the boundary between the terrace and floodplain, but is not gauged.  There is no surface flow from this seep during late summer.  Flows increase during the winter rainy season, and peak during storms.</para>
+            <para>Sampling frequency: irregular</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>A network of wells was installed on a gravel bar and a portion of the adjacent floodplain of McRae Creek (see Figure) between 1989 and 1992.  Water samples were collected from the well network to monitor changes in dissolved nitrogen concentrations in both ground water and the hyporheic water among seasons and within storms.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="CF00401">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>CF00401</entityName>
+      <entityDescription>Hyporheic and stream water chemistry of McRae Creek: </entityDescription>
+      <physical>
+        <objectName>CF00401.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4028/6/25ad7d73a673e0d41c3b2795fecd3bcd</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="CF00401.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CF004</code>
+                    <definition>FSDB database code CF004</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.CCAL_ID">
+          <attributeName>CCAL_ID</attributeName>
+          <attributeDefinition>Unique sample id number from the ccal lab</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">101.0000</minimum>
+                  <maximum exclusive="false">899.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.DUPLICATE">
+          <attributeName>DUPLICATE</attributeName>
+          <attributeDefinition>Duplicated lab analysis for qa/qc</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Duplicate lab analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Repeated lab analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RD</code>
+                    <definition>Duplicate in repeat analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.FLAG">
+          <attributeName>FLAG</attributeName>
+          <attributeDefinition>Special collection  - see comments in supplemental information</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Special collection  - see comments in supplemental information</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.FIELD_ID">
+          <attributeName>FIELD_ID</attributeName>
+          <attributeDefinition>Number assigned in the field to the sample</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1275.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time of sample collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">9/14/1989 7:30:00 AM</minimum>
+                  <maximum exclusive="false">3/25/1993 12:38:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.E_TIME">
+          <attributeName>E_TIME</attributeName>
+          <attributeDefinition>Elapsed time (in years) since beginning of the study where 0.000000 is 1 jan 1989.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,6)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>0.000000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.7000</minimum>
+                  <maximum exclusive="false">4.2400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.LOCATE">
+          <attributeName>LOCATE</attributeName>
+          <attributeDefinition>Location of sample collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FIELD-B</code>
+                    <definition>Di water field blank</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB02</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB03</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB04</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB05</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB06</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB07</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB08</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB09</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB10</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB11</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB12</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB13</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB14</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB15</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB16</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GB17</code>
+                    <definition>Observation well on gravel bar - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA03</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA07</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA11</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA14</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA17</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PA72</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PB30</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE18</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE23</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE27</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE30</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE37</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PN31</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PP20</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PP28</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PP34</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PP41</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PQ10</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PS04</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PS29</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PS40</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PV05</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PV19</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PV31</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PV40-A</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PX09</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PX18</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PX22</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PX30</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PX40</code>
+                    <definition>Observation well  - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W00A</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W007</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W07A</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W24A</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W32A</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W51A</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W21E</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W37E</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W10X</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W30X</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W60X</code>
+                    <definition>Sample well - see map for location</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STLET@E</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STREAM</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STREAM@N</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOL@A</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOL@D</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOL@E</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRIB-00</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRIB-A1</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRIB-A2</code>
+                    <definition>Grab sample location for collection of survace water - see map</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PP42</code>
+                    <definition>Not on map</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.H2ODEPTH">
+          <attributeName>H2ODEPTH</attributeName>
+          <attributeDefinition>Depth of water, measured from top of well, or height of water in stream</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5300</minimum>
+                  <maximum exclusive="false">274.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.H2OELEV">
+          <attributeName>H2OELEV</attributeName>
+          <attributeDefinition>Elevation of water table or stream stage where all locations are measured relative to arbitrarily lcocated benchmark.  gives true elev dif btwn sites.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-310.2000</minimum>
+                  <maximum exclusive="false">612.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.LANDFORM">
+          <attributeName>LANDFORM</attributeName>
+          <attributeDefinition>Landform within the study site where samples were located</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(9)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FAN</code>
+                    <definition>Alluvial fan</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FLOOD</code>
+                    <definition>Flood plain</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GRAVEL</code>
+                    <definition>Gravel bar</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SEEP</code>
+                    <definition>Seep or spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STLET</code>
+                    <definition>Back channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STREAM</code>
+                    <definition>Mcrae creek</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STREAMBED</code>
+                    <definition>Streambed of mcrae creek</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TERRACE</code>
+                    <definition>Terrace</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRIB</code>
+                    <definition>Tributary stream</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.SEASON">
+          <attributeName>SEASON</attributeName>
+          <attributeDefinition>Season of year</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALL</code>
+                    <definition>Fall</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPRING</code>
+                    <definition>Spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUMMER</code>
+                    <definition>Summer</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WINTER</code>
+                    <definition>Winter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.FLOINDEX">
+          <attributeName>FLOINDEX</attributeName>
+          <attributeDefinition>State of stream hydrograph at time of sample collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BASE</code>
+                    <definition>Base flow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FALL</code>
+                    <definition>Falling leg of hydrograph</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOW</code>
+                    <definition>Annual low flow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PEAK</code>
+                    <definition>Peak of storm hydrograph</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POST</code>
+                    <definition>Post-storm sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PRE</code>
+                    <definition>Pre-storm sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RISE</code>
+                    <definition>Rising leg of hydrograph</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.TEMP">
+          <attributeName>TEMP</attributeName>
+          <attributeDefinition>Temperature of water at time of collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.2000</minimum>
+                  <maximum exclusive="false">14.7000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.OXYGEN">
+          <attributeName>OXYGEN</attributeName>
+          <attributeDefinition>Dissolved oxygen concentration in water at time of collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">12.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.TURBID">
+          <attributeName>TURBID</attributeName>
+          <attributeDefinition>Denotes turbid samples after filtering</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Turbid (after filtering)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N-T</code>
+                    <definition>Not turbid</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.COLOR">
+          <attributeName>COLOR</attributeName>
+          <attributeDefinition>Denotes colored (not clear or turbid) samples after filtering</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Colored after filtering</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N-C</code>
+                    <definition>Not colored</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.SEDIMENT">
+          <attributeName>SEDIMENT</attributeName>
+          <attributeDefinition>Ranking of amount of sediment left on filter paper after filtering the sample through whatman gf/c filter</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Little to no sediment left on sample paper after filtering</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Some sediment left on sample paper after filtering</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>More sediment left on sample paper after filtering</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Even more sediment left on sample paper after filtering</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Very sediment rich, usually required several filters to filter entire sample</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Not indicated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.TKN">
+          <attributeName>TKN</attributeName>
+          <attributeDefinition>Total kjeldahl nitrogen concentration</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.NH4">
+          <attributeName>NH4</attributeName>
+          <attributeDefinition>Amonium concentration (may include nh3 if present in sample)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.7430</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.NO3">
+          <attributeName>NO3</attributeName>
+          <attributeDefinition>Nitrate concentration</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.6370</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.DON">
+          <attributeName>DON</attributeName>
+          <attributeDefinition>Dissolved organic nitrogen concentration calculated by difference between tkn and nh4</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.1310</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF00401.TOTALN">
+          <attributeName>TOTALN</attributeName>
+          <attributeDefinition>Total dissolved nitrogen calculated by sum of nh4, no3, and don</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.4520</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="CF00401.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>CF00401.DUPLICATE</attributeReference>
+            <attributeReference>CF00401.FIELD_ID</attributeReference>
+            <attributeReference>CF00401.DATE_TIME</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="CF00401.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>CF00401.COLOR</attributeReference>
+            <attributeReference>CF00401.DUPLICATE</attributeReference>
+            <attributeReference>CF00401.FLOINDEX</attributeReference>
+            <attributeReference>CF00401.LANDFORM</attributeReference>
+            <attributeReference>CF00401.LOCATE</attributeReference>
+            <attributeReference>CF00401.SEDIMENT</attributeReference>
+            <attributeReference>CF00401.TURBID</attributeReference>
+            <attributeReference>CF00401.SEASON</attributeReference>
+            <attributeReference>CF00401.E_TIME</attributeReference>
+            <attributeReference>CF00401.FIELD_ID</attributeReference>
+            <attributeReference>CF00401.DBCODE</attributeReference>
+            <attributeReference>CF00401.ENTITY</attributeReference>
+            <attributeReference>CF00401.DATE_TIME</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>848</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="YYYY" id="year (yyyy)" name="YYYY"
+          parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime">
+          <stmml:description>year (4 character) portion of date</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="cm" id="centimeters"
+          multiplierToSI="0.01" name="centimeter" parentSI="meter" unitType="length">
+          <stmml:description>centimeters; .01 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mg/l" id="milligrams per liter"
+          multiplierToSI="0.001" name="milligramPerLiter"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>milligrams per liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5453.5"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HF003</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/06bab37682ebcf5171fa8ca107a47226</alternateIdentifier>
+    <title>Stream discharge and bedload accumulation in gauged watersheds at the South Umpqua Experimental Forest, Coyote Creek, 1963 to 1981 and 2001 to present</title>
+    <creator>
+      <individualName>
+        <givenName>Jack</givenName>
+        <givenName>S.</givenName>
+        <surName>Rothacher</surName>
+      </individualName>
+      <address/>
+      <phone/>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Julia</givenName>
+        <givenName>A.</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1224</phone>
+      <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+      <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Rusk</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>arusk@fs.fed.us</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Mikeal</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>mikealjones@charter.net</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Timothy</givenName>
+        <givenName>D.</givenName>
+        <surName>Perry</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>perry@h-m-g.com</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Debra</givenName>
+        <givenName>S.</givenName>
+        <surName>Gray</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>dgray@fs.fed.us</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <givenName>H.</givenName>
+        <surName>Blanchard</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Crop and Soil Science;3017 Ag &amp; Life Sciences;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-7306</postalCode>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>R.</givenName>
+        <givenName>Dennis</givenName>
+        <surName>Harr</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Former Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Richard</givenName>
+        <givenName>L.</givenName>
+        <surName>Fredriksen</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Former Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Craig</givenName>
+        <surName>Creel</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7326</phone>
+      <phone>(541) 822-6301</phone>
+      <electronicMailAddress>cdcreel@comcast.net</electronicMailAddress>
+      <role>Former Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Greg</givenName>
+        <surName>Downing</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Forestry Sciences Lab;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97333</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7283</phone>
+      <phone>(541) 822-6301</phone>
+      <electronicMailAddress>greg.downing@oregonstate.edu</electronicMailAddress>
+      <role>Method Contact</role>
+    </associatedParty>
+    <pubDate>2018-04-20</pubDate>
+    <abstract>
+      <para>Stream discharge is collected on four small watersheds in the Coyote Creek drainage within the South Umpqua Experimental forest in the southwest Oregon Cascades. Stream discharge data was started in October 1963 and discontinued in June 1981 (discontinued April 1985 on Watershed 4). Stream discharge measurement was resumed in December 2000 on all four watersheds. Watersheds 1, 2, and 3 were harvested with differing silvicultural methods in summer 1971, and watershed 4 is the control. High resolution temporal data is provided as well as daily, monthly and annual summary data. Streamflow data by sampling intervals are also provided from 1970 to 1981 when stream water chemistry data were being collected. Annual bedload accumulation totals from each of the four watersheds is also provided beginning 2001.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">hydrology</keyword>
+      <keyword keywordType="theme">silviculture</keyword>
+      <keyword keywordType="theme">disturbance</keyword>
+      <keyword keywordType="theme">sedimentation</keyword>
+      <keyword keywordType="theme">hydrologic processes</keyword>
+      <keyword keywordType="theme">stream discharge</keyword>
+      <keyword keywordType="theme">streamflow</keyword>
+      <keyword keywordType="theme">long term monitoring</keyword>
+      <keyword keywordType="theme">accumulation</keyword>
+      <keyword keywordType="theme">timber harvest</keyword>
+      <keyword keywordType="theme">water</keyword>
+      <keyword keywordType="theme">sediments</keyword>
+      <keyword keywordType="theme">forest ecosystems</keyword>
+      <keyword keywordType="theme">watersheds</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">long term studies</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">disturbance</keyword>
+      <keywordThesaurus>LTER core research areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released under the Creative Commons license CC BY "Attribution" (see: https://creativecommons.org/licenses/by/4.0/).   Creative Commons license CC BY - Attribution is a license that allows others to distribute, remix, tweak, and build upon your work (even commercially), as long as you are credited for the original creation.  This license accommodates maximum dissemination and use of licensed materials.</para>
+      <para>It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. </para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. </para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=HF003</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The four Coyote Creek Experimental watersheds are located about 55 km southeast of Roseburg, Oregon, at the head of Coyote Creek, a small tributary of Buckeye Creek which flows into the South Umpqua River (T. 29 S, R. 1 E) in the southwestern Cascades of Oregon.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.73491200</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.70515400</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.02137300</northBoundingCoordinate>
+          <southBoundingCoordinate>43.00528900</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>730</altitudeMinimum>
+            <altitudeMaximum>1065</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1963-10-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-10-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Examine the effects on streamflow based on differing silvicultural techniques used in the harvesting of three small watersheds in conjunction with a control watershed in the South Umpqua Experimental Forest. Additionally in an effort to relate forest environments to harvesting techniques and subsequent forest regeneration in southwestern Oregon, the U.S. Forest Service monitored and compared these variables on the three adjacent, harvested experimental watersheds.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2017-01-10</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data entities are established online for the first time for Coyote Creek watersheds,1, 2, 3 and 4. Data includes both the historic period from WY 1964 into WY 1981, and continues with WY 2001 through WY 2016.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2017-01-31</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata only changes were made. Geographic coordinates for the study were added and changes were made to database abstract, methods, and associated personnel.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2017-02-13</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Entity 7 annual sediment basin accumulation data was added to this database</changeScope>
+        <oldValue>Version4</oldValue>
+        <changeDate>2017-03-22</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Wateryear 2017 data is added for all four watersheds, entities 1, 2, 3, 4. Processing takes advantage of revised python programs weir3k_hans.py and pyflow_hans.py and first test of pyflow_hans_df.py on GSCC02.</changeScope>
+        <oldValue>Version5</oldValue>
+        <changeDate>2018-04-20</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-5952-4528</userId>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - HF003</para>
+          <para>Stream discharge is measured on four small gauged watersheds equipped with sharp-crested, 120 degree v-notch weirs. The records of stage are converted to stream discharge by applying a v-notch flume specific rating curve, which is the same for each of the four watersheds (ln y = lna + b ln x, where y = discharge in cubic feet per second, x= gage height in feet, ln a = 1.4884000 and b=2.4489999). Historically, sites have been visited on a 3-week basis and "check sheets" guide the data collection and maintenance activities for the visit. The instrumentation used to measure and record stream stage has changed through the years in response to changes in data collection technology and data management considerations. Leopold-Stevens A-35 (A-71) chart recorders were the primary collection mechanism from the beginning of record through WY 1985, however, Fischer-Porter punched tape recorders were used in lieu of charts from 1967 to 1975. Stage height measurement was switched to Model 2 Stevens Instruments Position Analog Transmitter (PAT) recorders controlled by a data logger shortly after resuming measurement (~2003). Charts are still maintained to provide a visual backup record on two of the four watersheds (WS 3 and 4) with large enough stilling wells to house both the PAT and the Stephens A-71 chart recorder. The discharge measurement is re-initialized every visit to a reference measurement of stream height taken by a hook gage located in an additional stilling well.</para>
+          <para>
+Sediment basin surveys are conducted annually since 2000 to determine annual accumulation of bedload. Basin surveys are designed to build basin profiles that are used to determine a change in average bottom elevation between annual surveys. The basins are cleaned annually and resurveyed to provide a base elevation for the following year. Original survey data are summarized in an attachment (1966-1985). Currently, volumetric measurements made with 5-gallon bucket counts and have been used as the basis for calculation since 2002. Historically, a level and leveling rod were used to measure elevation on a point grid and calculations made from the difference in the empty and full basin surveys. From Craig Creel regarding change to bucket counts from a regular survey: We tried to duplicate the historical survey methods, but the transit endpoints were not monumented so we created new ones based on the old notes. One problem with the elevational surveys was the limited number of survey points due to the small size of the basin. Slope points that are usually not included in the calculations because of the difficulty of surveying the exact point when the basin is empty were included just to have a reasonable number of points used in the calculations rater than just a few when the slope is not included (The basins have a large area of sloping sides.). This was one of the reasons we decided to change methods</para>
+        </description>
+        <instrumentation>Model 2 Stevens Instruments Position Analog Transmitter (PAT) recorder controlled by a data logger (Campbell Scientific CR10X or equivalent); Stevens Type A (A-35 or A-71) recorders; Fischer-Porter punched tape recorders</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - HF003</para>
+          <para>Beginning with WY 1964 through WY 1985, all A-35 charts from the Stevens recorder were digitized at the Coweeta Hydrological Lab. However, from WY 1967 through WY 1975, punched tape output was used as the raw record instead of the A-35 charts. This resulted in 15 minute data output during this period. A-35 chart digitizing resumed after WY 1975. Beginning with WY 2001, the process was moved to the Corvallis FSL using a Summagraphics MM1812 digitizer. Consistent digitizing practices have been maintained for all chart data. Campbell scientific data loggers replaced chart digitizing by 2003 as the primary source of streamflow data, and the charts are still collected on CC03 and CC04 and maintained as a backup when electronic data collection fails.</para>
+        </description>
+        <instrumentation>SummaGraphics 1812 digitizer is able to record up to 40 linear points per mm at highest precision. In practice the digitizer was able to produce raw data points of stage height within .003 ft.</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The watersheds originally supported a mixed conifer forest containing approximately 50,000 board feet per acre (440 m 3 /ha). Douglas-fir (Pseudotsuga menziesii (Mirb.) Franco), grand fir (Abies grandis (Dougl.) Lindl.), incense-cedar (Libocedrus decurrens Torr.), and sugar pine (Pinus Zambertiana Dougl.) predominated in the old growth. Occasional ponderosa pines (Pinus ponderosa Laws.) and western hemlocks (Tsuga heterophylla
+(Raf.) Sarg.) were also present. Occupying adjacent drainages, the four watersheds comprise 171, 169, 123, and 120 acres (69.2, 68.2, 49.8 and 48.6 ha). These Coyote Creek watersheds are referred to as GSCC01 , GSCC02, GSCC03 and GSCC04 (control).
+
+Three of these watersheds were harvested during the summer of 1971, but different methods were used on each. A preparatory cut for creating a shelterwood stand was applied in one watershed (CC01), clearcutting in the other two. Slash treatment varied, but no broadcast burning was done anywhere on the study area. Twenty small units from 1.6 to 3.3 acres (0.65 to 1.34 ha) in size were clearcut on CC02; 10 were tractor-yarded and 10 were high-lead yarded. Slash was machine-piled and burned on all the tractor-yarded units. CC03 was clearcut as one large 123-acre (49.8-ha) unit. Both high-lead and tractor yarding were used.</para>
+            <para>Sampling frequency: 5 minutes</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Three adjacent watersheds in the South Umpqua Experimental Forest on Coyote Creek were harvested in summer 1971 after 7 years of pre-treatment stream discharge collection. Data collection was discontinued in 1981 but resumed in 2000. Watershed 1 was was logged as preparation for creating a shelterwood stand, watershed 2 was patch clearcut in 20 small units from 1.6 to 3.3 acres, watershed 3 was cut as one large clearcut, and watershed 4 was left undisturbed as a control.</para>
+          <para>Citation:
+							</para>
+          <para>Harr, R. Dennis; Fredriksen, Richard L.; Rothacher, Jack. 1979. Changes in streamflow following timber harvest in southwestern Oregon. Res. Pap. PNW-249. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 22 p. </para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Coyote Creek Watersheds</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.73491200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.70515400</eastBoundingCoordinate>
+              <northBoundingCoordinate>43.02137300</northBoundingCoordinate>
+              <southBoundingCoordinate>43.00528900</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Coyote Creek Watershed 1 Gauging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.71597800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.71597800</eastBoundingCoordinate>
+              <northBoundingCoordinate>43.01739700</northBoundingCoordinate>
+              <southBoundingCoordinate>43.01739700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>755</altitudeMinimum>
+                <altitudeMaximum>755</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Coyote Creek Watershed 2 Gauging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.71659100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.71659100</eastBoundingCoordinate>
+              <northBoundingCoordinate>43.01395300</northBoundingCoordinate>
+              <southBoundingCoordinate>43.01395300</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>738</altitudeMinimum>
+                <altitudeMaximum>738</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Coyote Creek Watershed 3 Gauging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.71223720</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.71223720</eastBoundingCoordinate>
+              <northBoundingCoordinate>43.01377540</northBoundingCoordinate>
+              <southBoundingCoordinate>43.01377540</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>700</altitudeMinimum>
+                <altitudeMaximum>700</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Coyote Creek Watershed 4 Gauging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.71146600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.71146600</eastBoundingCoordinate>
+              <northBoundingCoordinate>43.01379000</northBoundingCoordinate>
+              <southBoundingCoordinate>43.01379000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>700</altitudeMinimum>
+                <altitudeMaximum>700</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Coyote Creek: South Umpqua Experimental Forest</title>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>Stream discharge is collected on four small watersheds in the Coyote Creek drainage within the South Umpqua Experimental forest in the southwest Oregon Cascades. Stream discharge data was started in October 1963 and discontinued in June 1981 (discontinued April 1985 on Watershed 4). Stream discharge measurement was resumed in December 2000 on all four watersheds. Watersheds 1, 2, and 3 were harvested with differing silvicultural methods in summer 1971, and watershed 4 is the control. High resolution temporal data is provided as well as daily, monthly and annual summary data. Streamflow data by sampling intervals are also provided from 1970 to 1981 when stream water chemistry data were being collected. Annual bedload accumulation totals from each of the four watersheds is also provided beginning 2001.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. Pacific Northwest (PNW) Research Station</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Coyote Creek: South Umpqua Experimental Forest">
+          <descriptorValue>The four Coyote Creek Experimental watersheds are located about 55 km southeast of Roseburg, Oregon, at the head of Coyote Creek, a small tributary of Buckeye Creek which flows into the South Umpqua River (T. 29 S, R. 1 E) in the southwestern Cascades of Oregon.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="HF00301">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>HF00301</entityName>
+      <entityDescription>Corrected instantaneous stage height with flow calculations: These data are the raw data and are collected from charts at uneven intervals. Please use Entity 5 (the interactive FLOW program) to download high temporal resolution streamflow data for Coyote Creek small watersheds.</entityDescription>
+      <physical>
+        <objectName>HF00301.txt</objectName>
+        <authentication method="MD5">4e0c2a9492b1d733eb1b7455bb1b5bfe</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5453/5/e55969aeeb355bb4502dde29659a08a0</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1963-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-10-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF00301.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Study database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF003</code>
+                    <definition>Database code HF003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSCC01</code>
+                    <definition>Coyote Creek Watershed 1 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC02</code>
+                    <definition>Coyote Creek Watershed 2 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC03</code>
+                    <definition>Coyote Creek Watershed 3 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC04</code>
+                    <definition>Coyote Creek Watershed 4 Gauging Station</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Wateryear: October 1 - September 30</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1964.0000</minimum>
+                  <maximum exclusive="false">2017.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time (PST) of stage height measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/1/1963 12:00:00 AM</minimum>
+                  <maximum exclusive="false">10/1/2017 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.EQN_SET_CODE">
+          <attributeName>EQN_SET_CODE</attributeName>
+          <attributeDefinition>Equation set code describes the rating equation set and version used to calculate streamflow</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>201</code>
+                    <definition>GSCC01, Equation set A, version 1, current version, 1963-Present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>202</code>
+                    <definition>GSCC02, Equation set A, version 1, current version, 1963-Present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>203</code>
+                    <definition>GSCC03, Equation set A, version 1, current version, 1963-Present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>204</code>
+                    <definition>GSCC04, Equation set A, version 1, current version, 1963-Present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.STAGE">
+          <attributeName>STAGE</attributeName>
+          <attributeDefinition>Stage height</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>feet</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">2.4400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.INST_Q">
+          <attributeName>INST_Q</attributeName>
+          <attributeDefinition>Instantaneous flow as cubic feet per second (cfs)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">39.1300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.INST_Q_AREA">
+          <attributeName>INST_Q_AREA</attributeName>
+          <attributeDefinition>Instantaneous flow as cubic feet per second per square mile (cfsm)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second per square mile</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">146.4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.INTERVAL">
+          <attributeName>INTERVAL</attributeName>
+          <attributeDefinition>Time interval in minutes (length of time since previous stage value)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number of minutes of time</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1440.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.MEAN_Q">
+          <attributeName>MEAN_Q</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second (cfs) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">36.7110</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.MEAN_Q_AREA">
+          <attributeName>MEAN_Q_AREA</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second per square mile (cfsm) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second per square mile</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">137.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.TOTAL_Q_INT">
+          <attributeName>TOTAL_Q_INT</attributeName>
+          <attributeDefinition>Total flow as inches of water (over the watershed area) for the preceding time interval</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,6)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.5140</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.ESTCODE">
+          <attributeName>ESTCODE</attributeName>
+          <attributeDefinition>Estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Proportional nutrient sample removed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00301.EVENT_CODE">
+          <attributeName>EVENT_CODE</attributeName>
+          <attributeDefinition>Indicates that a comment exists independently for this date and time, and is typically the installation or removal of a v-notch or other change in rating curves used, or a site maintenance visit</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>No event is reported (not applicable)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAINTE</code>
+                    <definition>A maintenance event has occurred (e.g., site visit)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INSREM</code>
+                    <definition>Installation or removal of stream gauging instrumentation</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF00301.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF00301.SITECODE</attributeReference>
+            <attributeReference>HF00301.DATE_TIME</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF00301.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF00301.WATERYEAR</attributeReference>
+            <attributeReference>HF00301.ESTCODE</attributeReference>
+            <attributeReference>HF00301.DBCODE</attributeReference>
+            <attributeReference>HF00301.SITECODE</attributeReference>
+            <attributeReference>HF00301.ENTITY</attributeReference>
+            <attributeReference>HF00301.DATE_TIME</attributeReference>
+            <attributeReference>HF00301.EQN_SET_CODE</attributeReference>
+            <attributeReference>HF00301.EVENT_CODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>2270646</numberOfRecords>
+    </dataTable>
+    <dataTable id="HF00302">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>HF00302</entityName>
+      <entityDescription>Daily streamflow summaries: </entityDescription>
+      <physical>
+        <objectName>HF00302.csv</objectName>
+        <authentication method="MD5">6be5d847104ceda9b6185e0fa7963763</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5453/5/04b750031155d4b0095b0f8770e628c4</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1963-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-10-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF00302.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Study database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF003</code>
+                    <definition>Database code HF003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSCC01</code>
+                    <definition>Coyote Creek Watershed 1 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC02</code>
+                    <definition>Coyote Creek Watershed 2 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC03</code>
+                    <definition>Coyote Creek Watershed 3 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC04</code>
+                    <definition>Coyote Creek Watershed 4 Gauging Station</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Wateryear: October 1 - September 30</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1964.0000</minimum>
+                  <maximum exclusive="false">2017.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/1/1963 12:00:00 AM</minimum>
+                  <maximum exclusive="false">9/30/2017 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.MEAN_Q">
+          <attributeName>MEAN_Q</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second (cfs) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">18.7170</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.MAX_Q">
+          <attributeName>MAX_Q</attributeName>
+          <attributeDefinition>Maximum cubic feet per second (cfs) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">39.1290</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.MIN_Q">
+          <attributeName>MIN_Q</attributeName>
+          <attributeDefinition>Minimum cubic feet per second (cfs) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">11.8600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.MEAN_Q_AREA">
+          <attributeName>MEAN_Q_AREA</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second per square mile (cfsm) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second per square mile</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">88.0400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.TOTAL_Q_AREA">
+          <attributeName>TOTAL_Q_AREA</attributeName>
+          <attributeDefinition>Total flow as inches of water (over the watershed area) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3.2740</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00302.ESTCODE">
+          <attributeName>ESTCODE</attributeName>
+          <attributeDefinition>Estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Proportional nutrient sample removed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF00302.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF00302.DATE</attributeReference>
+            <attributeReference>HF00302.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF00302.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF00302.DATE</attributeReference>
+            <attributeReference>HF00302.WATERYEAR</attributeReference>
+            <attributeReference>HF00302.ESTCODE</attributeReference>
+            <attributeReference>HF00302.DBCODE</attributeReference>
+            <attributeReference>HF00302.SITECODE</attributeReference>
+            <attributeReference>HF00302.ENTITY</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>51803</numberOfRecords>
+    </dataTable>
+    <dataTable id="HF00303">
+      <alternateIdentifier>3</alternateIdentifier>
+      <entityName>HF00303</entityName>
+      <entityDescription>Monthly streamflow summaries: </entityDescription>
+      <physical>
+        <objectName>HF00303.csv</objectName>
+        <authentication method="MD5">0324602216f148094061d2fc4e6bcef8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5453/5/57af6cdae1dce3c7656af7403092fd9c</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1963-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-10-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF00303.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Study database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF003</code>
+                    <definition>Database code HF003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.0000</minimum>
+                  <maximum exclusive="false">3.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSCC01</code>
+                    <definition>Coyote Creek Watershed 1 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC02</code>
+                    <definition>Coyote Creek Watershed 2 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC03</code>
+                    <definition>Coyote Creek Watershed 3 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC04</code>
+                    <definition>Coyote Creek Watershed 4 Gauging Station</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Wateryear: October 1 - September 30</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1964.0000</minimum>
+                  <maximum exclusive="false">2017.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.YEAR">
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1963.0000</minimum>
+                  <maximum exclusive="false">2017.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.MONTH">
+          <attributeName>MONTH</attributeName>
+          <attributeDefinition>Calendar month</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">12.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.MEAN_Q">
+          <attributeName>MEAN_Q</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second (cfs) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3.1660</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.MAX_Q">
+          <attributeName>MAX_Q</attributeName>
+          <attributeDefinition>Maximum cubic feet per second (cfs) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0010</minimum>
+                  <maximum exclusive="false">28.1580</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.MIN_Q">
+          <attributeName>MIN_Q</attributeName>
+          <attributeDefinition>Minimum cubic feet per second (cfs) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.0250</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.MEAN_Q_AREA">
+          <attributeName>MEAN_Q_AREA</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second per square mile (cfsm) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second per square mile</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0010</minimum>
+                  <maximum exclusive="false">16.8840</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.TOTAL_Q_AREA">
+          <attributeName>TOTAL_Q_AREA</attributeName>
+          <attributeDefinition>Total flow as inches of water (over the watershed area) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">17.6330</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.ESTCODE">
+          <attributeName>ESTCODE</attributeName>
+          <attributeDefinition>Estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Proportional nutrient sample removed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.ESTDAYS">
+          <attributeName>ESTDAYS</attributeName>
+          <attributeDefinition>Number of days estimated or coded as questionable in the summary period</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number of days</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">31.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00303.TOTAL_DAYS">
+          <attributeName>TOTAL_DAYS</attributeName>
+          <attributeDefinition>Total days of non-missing record included in the summary period</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number of days</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">31.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF00303.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF00303.YEAR</attributeReference>
+            <attributeReference>HF00303.MONTH</attributeReference>
+            <attributeReference>HF00303.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF00303.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF00303.YEAR</attributeReference>
+            <attributeReference>HF00303.MONTH</attributeReference>
+            <attributeReference>HF00303.WATERYEAR</attributeReference>
+            <attributeReference>HF00303.ESTCODE</attributeReference>
+            <attributeReference>HF00303.DBCODE</attributeReference>
+            <attributeReference>HF00303.SITECODE</attributeReference>
+            <attributeReference>HF00303.ESTDAYS</attributeReference>
+            <attributeReference>HF00303.ENTITY</attributeReference>
+            <attributeReference>HF00303.TOTAL_DAYS</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>1702</numberOfRecords>
+    </dataTable>
+    <dataTable id="HF00304">
+      <alternateIdentifier>4</alternateIdentifier>
+      <entityName>HF00304</entityName>
+      <entityDescription>Annual streamflow summaries by wateryear (October 1 - September 30): </entityDescription>
+      <physical>
+        <objectName>HF00304.csv</objectName>
+        <authentication method="MD5">f50d9b02413e9c5b3a49f22f6b2c238e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5453/5/30afada096e4a8905cf500532ad29290</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1963-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2017-10-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF00304.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Study database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF003</code>
+                    <definition>Database code HF003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.0000</minimum>
+                  <maximum exclusive="false">4.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSCC01</code>
+                    <definition>Coyote Creek Watershed 1 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC02</code>
+                    <definition>Coyote Creek Watershed 2 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC03</code>
+                    <definition>Coyote Creek Watershed 3 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC04</code>
+                    <definition>Coyote Creek Watershed 4 Gauging Station</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Wateryear: October 1 - September 30</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1964.0000</minimum>
+                  <maximum exclusive="false">2017.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.MEAN_Q">
+          <attributeName>MEAN_Q</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second (cfs) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0500</minimum>
+                  <maximum exclusive="false">0.8630</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.MAX_Q">
+          <attributeName>MAX_Q</attributeName>
+          <attributeDefinition>Maximum cubic feet per second (cfs) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5080</minimum>
+                  <maximum exclusive="false">28.1600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.MIN_Q">
+          <attributeName>MIN_Q</attributeName>
+          <attributeDefinition>Minimum cubic feet per second (cfs) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.0330</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.MEAN_Q_AREA">
+          <attributeName>MEAN_Q_AREA</attributeName>
+          <attributeDefinition>Mean flow as cubic feet per second per square mile (cfsm) for the preceding time interval (entity 1, 5) or this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic feet per second per square mile</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2400</minimum>
+                  <maximum exclusive="false">3.7300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.TOTAL_Q_AREA">
+          <attributeName>TOTAL_Q_AREA</attributeName>
+          <attributeDefinition>Total flow as inches of water (over the watershed area) for this date (entity 2) or month (entity 3) or year (entity 4)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.7100</minimum>
+                  <maximum exclusive="false">50.7600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.ESTCODE">
+          <attributeName>ESTCODE</attributeName>
+          <attributeDefinition>Estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Proportional nutrient sample removed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.ESTDAYS">
+          <attributeName>ESTDAYS</attributeName>
+          <attributeDefinition>Number of days estimated or coded as questionable in the summary period</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number of days</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">212.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00304.TOTAL_DAYS">
+          <attributeName>TOTAL_DAYS</attributeName>
+          <attributeDefinition>Total days of non-missing record included in the summary period</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number of days</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">182.0000</minimum>
+                  <maximum exclusive="false">366.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF00304.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF00304.WATERYEAR</attributeReference>
+            <attributeReference>HF00304.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF00304.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF00304.WATERYEAR</attributeReference>
+            <attributeReference>HF00304.ESTCODE</attributeReference>
+            <attributeReference>HF00304.DBCODE</attributeReference>
+            <attributeReference>HF00304.SITECODE</attributeReference>
+            <attributeReference>HF00304.ESTDAYS</attributeReference>
+            <attributeReference>HF00304.ENTITY</attributeReference>
+            <attributeReference>HF00304.TOTAL_DAYS</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>144</numberOfRecords>
+    </dataTable>
+    <dataTable id="HF00306">
+      <alternateIdentifier>6</alternateIdentifier>
+      <entityName>HF00306</entityName>
+      <entityDescription>Flow summaries for sediment and nutrient sampling periods: Total flow is summarized, generally in 3 week periods, for inclusion with stream sampling data in CF003.</entityDescription>
+      <physical>
+        <objectName>HF00306.csv</objectName>
+        <authentication method="MD5">9e6c8ff57511a4211bebbee77c5d0ecf</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5453/5/eabfded1da4c2ca94800926a50de9491</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1969-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1981-01-13</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF00306.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Study database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF003</code>
+                    <definition>Database code HF003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.0000</minimum>
+                  <maximum exclusive="false">6.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSCC01</code>
+                    <definition>Coyote Creek Watershed 1 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC02</code>
+                    <definition>Coyote Creek Watershed 2 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC03</code>
+                    <definition>Coyote Creek Watershed 3 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC04</code>
+                    <definition>Coyote Creek Watershed 4 Gauging Station</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Wateryear: October 1 - September 30</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1970.0000</minimum>
+                  <maximum exclusive="false">1981.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.BEGIN_DATETIME">
+          <attributeName>BEGIN_DATETIME</attributeName>
+          <attributeDefinition>Beginning date and time of proportional sampling period</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/1/1969 12:00:00 AM</minimum>
+                  <maximum exclusive="false">1/13/1981 3:25:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.END_DATETIME">
+          <attributeName>END_DATETIME</attributeName>
+          <attributeDefinition>Ending date and time of proportional sampling period</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/16/1969 12:00:00 PM</minimum>
+                  <maximum exclusive="false">10/1/1981 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.TOTAL_Q_SMPL">
+          <attributeName>TOTAL_Q_SMPL</attributeName>
+          <attributeDefinition>Total flow as inches of water during proportional sampling period (over the watershed area)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">10.1900</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00306.ESTCODE">
+          <attributeName>ESTCODE</attributeName>
+          <attributeDefinition>Estimate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Proportional nutrient sample removed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF00306.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF00306.BEGIN_DATETIME</attributeReference>
+            <attributeReference>HF00306.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF00306.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF00306.BEGIN_DATETIME</attributeReference>
+            <attributeReference>HF00306.END_DATETIME</attributeReference>
+            <attributeReference>HF00306.WATERYEAR</attributeReference>
+            <attributeReference>HF00306.ESTCODE</attributeReference>
+            <attributeReference>HF00306.DBCODE</attributeReference>
+            <attributeReference>HF00306.SITECODE</attributeReference>
+            <attributeReference>HF00306.ENTITY</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>844</numberOfRecords>
+    </dataTable>
+    <dataTable id="HF00307">
+      <alternateIdentifier>7</alternateIdentifier>
+      <entityName>HF00307</entityName>
+      <entityDescription>Annual bedload accumulation measured from sediment basins: </entityDescription>
+      <physical>
+        <objectName>HF00307.csv</objectName>
+        <authentication method="MD5">e16a1f8575c68f1bf60da6887aec60bb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5453/5/722f087516e2e7ce4f33c33043fd2b2c</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2001-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-09-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF00307.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Study database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF003</code>
+                    <definition>Database code HF003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.0000</minimum>
+                  <maximum exclusive="false">7.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSCC01</code>
+                    <definition>Coyote Creek Watershed 1 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC02</code>
+                    <definition>Coyote Creek Watershed 2 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC03</code>
+                    <definition>Coyote Creek Watershed 3 Gauging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSCC04</code>
+                    <definition>Coyote Creek Watershed 4 Gauging Station</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Wateryear: October 1 - September 30</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2000.0000</minimum>
+                  <maximum exclusive="false">2016.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.METHOD">
+          <attributeName>METHOD</attributeName>
+          <attributeDefinition>Sediment basin survey method used to measure annual bedload</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Bucket count survey - a count of 5 gallon buckets</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Standard survey using level and leveling rod</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.WATERSHED_AREA">
+          <attributeName>WATERSHED_AREA</attributeName>
+          <attributeDefinition>Area of watershed contributing to bedload accumulation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hectares</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">48.6000</minimum>
+                  <maximum exclusive="false">69.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.VOLUME">
+          <attributeName>VOLUME</attributeName>
+          <attributeDefinition>Volume of bedload in sediment basin as calculated by the survey</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic meters</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0400</minimum>
+                  <maximum exclusive="false">102.4200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.ACCUM_RATE">
+          <attributeName>ACCUM_RATE</attributeName>
+          <attributeDefinition>Annual bedload accumulation rate</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cubic meters per hectare</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0010</minimum>
+                  <maximum exclusive="false">1.4800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.ACCUM_CODE">
+          <attributeName>ACCUM_CODE</attributeName>
+          <attributeDefinition>Accumulation rate code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Bedload accumulation rate is missing for current year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Bedload accumulation rate for current year is questionable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF00307.NOTES">
+          <attributeName>NOTES</attributeName>
+          <attributeDefinition>Specific notes regarding the surveyor bedload calculation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(254)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specific notes regarding the surveyor bedload calculation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF00307.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF00307.WATERYEAR</attributeReference>
+            <attributeReference>HF00307.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF00307.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF00307.WATERYEAR</attributeReference>
+            <attributeReference>HF00307.DBCODE</attributeReference>
+            <attributeReference>HF00307.SITECODE</attributeReference>
+            <attributeReference>HF00307.ENTITY</attributeReference>
+            <attributeReference>HF00307.METHOD</attributeReference>
+            <attributeReference>HF00307.WATERSHED_AREA</attributeReference>
+            <attributeReference>HF00307.ACCUM_CODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>68</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="min" id="number of minutes of time"
+          multiplierToSI="60" name="nominalMinute" parentSI="second" unitType="time">
+          <stmml:description>one minute excluding leap seconds, 60 seconds; the sixtieth part of an hour of time</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="days" id="number of days"
+          multiplierToSI="86400" name="nominalDay" parentSI="second" unitType="time">
+          <stmml:description>one day excluding leap seconds, 86400 seconds</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="cfs" id="cubic feet per second"
+          multiplierToSI="28.31685" name="footCubedPerSecond"
+          parentSI="literPerSecond" unitType="volumetricRate">
+          <stmml:description>cubic feet per second</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="cfsm"
+          id="cubic feet per second per square mile"
+          multiplierToSI="0.00000001093"
+          name="footCubedPerSecondPerMileSquared"
+          parentSI="meterCubedPerSecondPerMeterSquared" unitType="volumetricAreaRate">
+          <stmml:description>cubic feet per second per square mile</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ft" id="feet" multiplierToSI="0.3048"
+          name="foot" parentSI="meter" unitType="length">
+          <stmml:description>feet; 12 inches</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ft3" id="cubic feet"
+          multiplierToSI="0.02832" name="footCubed"
+          parentSI="meterCubed" unitType="volume">
+          <stmml:description>cubic feet</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="in" id="inches"
+          multiplierToSI="0.0254" name="inch" parentSI="meter" unitType="length">
+          <stmml:description>inches; an imperial measure of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="YYYY" id="year (yyyy)" name="YYYY"
+          parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime">
+          <stmml:description>year (4 character) portion of date</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ha" id="hectares"
+          multiplierToSI="10000" name="hectare" parentSI="meterSquared" unitType="area">
+          <stmml:description>hectares; 1 hectare is 10^4 square meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m3" id="cubic meters"
+          multiplierToSI="1" name="meterCubed" parentSI="meterCubed" unitType="volume">
+          <stmml:description>cubic meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m3/ha" id="cubic meters per hectare"
+          multiplierToSI="0.0001" name="meterCubedPerHectare"
+          parentSI="meterCubedPerMeterSquared" unitType="volumetricArea">
+          <stmml:description>cubic meters per hectare</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

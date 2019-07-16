@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.4030.7"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HF010</alternateIdentifier>
+    <title>Stream stage and water table elevation in hyporheic and ground water from McRae Ck well network, Andrews Experimental Forest, 1989-1993</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2016-11-01</pubDate>
+    <abstract>
+      <para>Measurements of stream stage of McRae Ck and water table heights from a network of shallow wells located adjacent to the stream. Data were collected from September 1989 to September 1992 on an irregular basis to sample both baseflow periods and storm events across seasons of the year.
+
+Stage height was read from staff plates permanently located at several location in the mainstem channel and in a small back channel; water table elevations were measured with a weighted measuring tape with a visible signal when the tape touched the water in the well.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Aquatic ecosystems</keyword>
+      <keyword keywordType="theme">Forest-stream interactions</keyword>
+      <keyword keywordType="theme">Groundwater processes</keyword>
+      <keyword keywordType="theme">Hydrologic modeling</keyword>
+      <keyword keywordType="theme">Hydrologic processes</keyword>
+      <keyword keywordType="theme">Hydrology data</keyword>
+      <keyword keywordType="theme">Hyporheic zone</keyword>
+      <keyword keywordType="theme">Low flows</keyword>
+      <keyword keywordType="theme">Peak flows</keyword>
+      <keyword keywordType="theme">Storms</keyword>
+      <keyword keywordType="theme">Streamflow</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>See WELLLIST.TXT for basic information describing each well and locations of each measurement point included in this data set.</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Wondzell, Steve. 1994. Flux of ground water and nitrogen through the floodplain of a fourth-order stream. Corvallis, OR: Oregon State University. 113 p. Ph.D. dissertation.</para>
+      <para>Wondzell, Steven M.; Swanson, Frederick J. 1996. Seasonal and storm dynamics of the hyporheic zone of a 4th-order mountain stream. I: Hydrologic processes. Journal of the North American Benthological Society. 15(1): 3-19.</para>
+      <para>Wondzell, Steven M.; Swanson, Frederick J. 1996. Seasonal and storm dynamics of the hyporheic zone of a 4th-order mountain stream. II: Nitrogen cycling. Journal of the North American Benthological Society. 15(1): 20-34.</para>
+      <para>
+        <emphasis>Related Files</emphasis>
+      </para>
+      <para>Title: Well Location Map</para>
+      <para>Description: Locations of wells</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/hf10/welltran.jpg</para>
+      <para>Title: Well Locations on gravel bar</para>
+      <para>Description: Well Locations on gravel bar</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/hf10/gravelba.jpg</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=HF010&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1989-09-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1993-03-25</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>To monitor changes in flows of stream water, hyporheic water and groundwater among seasons of the year and during storms in the fall, winter and spring.  Data were used to parameterize a groundwater flow model (MODFLOW) which was then used to estimate fluxes of hyporheic water and groundwater through the study site.  Water flux estimates were combined with water chemistry data (see CF004) to estimate nitrogen fluxes.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2000-04-04</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Moved database to SQL server</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2005-04-15</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated with true datetime and other minor attribute name and definition changes, Preparation for putting into PASTA.</changeScope>
+        <oldValue>Version7</oldValue>
+        <changeDate>2016-11-01</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - HF010</para>
+          <para>Wells and well transects</para>
+          <para>
+Two types of wells were used in this study: observation wells to measure water table elevations and sample wells to collect interstitial water.  Water depths were only measured from observation wells. Casings for observation wells were made from PVC pipe and screened by drilling 0.32 cm diameter holes into the bottom 50 cm of each PVC pipe, at an approximate density of 1 hole/cm<superscript>2</superscript>. </para>
+          <para>
+ All wells were driven by hand because the study site had no road access.  Large cobbles and boulders throughout the study site hindered well placement so that the deepest wells penetrated only 2.5 m below the ground surface.  Wherever possible, wells were placed in holes driven at least 50 cm below the surface of the water table at summer baseflow.  Holes were back filled with the soil originally removed and, if necessary, additional fill was taken from nearby soil pits or recent root-throw pits.  Following installation of the wells, back fill was washed and entrained sediments were removed from the well casing by repeated pumping.  </para>
+          <para>
+A single transect of wells was established during late summer in 1989 as a pilot study.  Additional transects of wells were installed during the summer of 1990 and an additional 18 wells were established on, and adjacent to, the gravel bar during 1991 and 1992. </para>
+          <para>
+Water depths and water table elevations:</para>
+          <para>
+Water depths measured from the well network were converted to elevation referenced to an arbitrary bench mark.  All wells were surveyed and water table elevations were found by subtracting the depth to the free water (measured from the well head) from the surveyed elevation of the well head. Water depths were measured using a home-made depth sound consisting of a analog multi-meter and wire leads attached to a measuring tape.  The multi-meter was set to record resistance.  The tip of the wire leads were exposed and when dipped in water, the change in resistance would cause the multi-meter=s needle to jump.  Measurement precision was excellent (" 1 mm).  Overall, accuracy was somewhat less.  Repeated surveys of well head heights had a precision of (" 1 cm).  Further, the measuring tape with its attached wires would not hang perfectly straight nor were all wells exactly vertical.  Expected accuracy of measurements is (" 2 cm).  </para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The McRae Creek study site was about 200 m long and 80 m wide and was located along the eastern bank of an unconstrained stream reach (see Figure).  A complex of landforms is present within the study site, including a recently formed gravel bar, older floodplain surfaces, and terraces.  Sediment of the gravel bar and stream channel is a poorly sorted mix of sand, gravel, cobbles, and boulders more than 1.5 m in depth.  A layer of rounded, stream-worked cobbles and boulders, 10 to 50 cm in diameter, is present at 1 to 3 m depth within the floodplain.  The sediment overlying this layer varies in texture from loam to fine sand.  A small seep is present along the boundary between the terrace and floodplain, but is not gauged.  There is no surface flow from this seep during late summer.  Flows increase during the winter rainy season, and peak during storms.</para>
+            <para>Sampling frequency: irregular</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>A network of wells was installed on a gravel bar and a portion of the adjacent floodplain of McRae Creek (see Figure) between 1989 and 1992.  Water depths were measured in each well to monitor changes in the elevation of ground water and hyporheic water among seasons and within storms.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="HF01001">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>HF01001</entityName>
+      <entityDescription>Stream hyporheic and ground water elevations from the McRae Creek network: </entityDescription>
+      <physical>
+        <objectName>HF01001.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4030/7/b66124027323a2e072a51a10cb3a50a2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="HF01001.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF010</code>
+                    <definition>FSDB database code</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time of depth measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">9/5/1989 12:30:00 PM</minimum>
+                  <maximum exclusive="false">3/25/1993 1:49:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.JULIAN_DATE">
+          <attributeName>JULIAN_DATE</attributeName>
+          <attributeDefinition>Julian date (yyyyddd) of depth measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1989248.0000</minimum>
+                  <maximum exclusive="false">1993084.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.LOCATION">
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>Location of well. ST-EST*=stream wtr elev at 10 m intervals along reach; P*=obs wells; G*=wells on gravel bars; rest are stream and  back channel (see map)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of well. ST-EST*=stream wtr elev at 10 m intervals along reach; P*=obs wells; G*=wells on gravel bars; rest are stream and  back channel (see map)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.H2OELEV">
+          <attributeName>H2OELEV</attributeName>
+          <attributeDefinition>Elevation of water table of stream stage where all locations are measured relative to a single, arbitrarily located bench mark.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-310.2000</minimum>
+                  <maximum exclusive="false">710.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.H2ODEPTH">
+          <attributeName>H2ODEPTH</attributeName>
+          <attributeDefinition>Depth to water, measured from top of well or at height of water in stream</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">17.3000</minimum>
+                  <maximum exclusive="false">291.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01001.NOTE">
+          <attributeName>NOTE</attributeName>
+          <attributeDefinition>Flags the few depth measurements collected in units of hundreds of feet</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>hft</code>
+                    <definition>Flags depth measurements recorded in hundredths of feet (instead of cm)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>dry</code>
+                    <definition>Denotes a dry well</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF01001.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF01001.LOCATION</attributeReference>
+            <attributeReference>HF01001.DATE_TIME</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF01001.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF01001.ENTITY</attributeReference>
+            <attributeReference>HF01001.DBCODE</attributeReference>
+            <attributeReference>HF01001.LOCATION</attributeReference>
+            <attributeReference>HF01001.H2OELEV</attributeReference>
+            <attributeReference>HF01001.JULIAN_DATE</attributeReference>
+            <attributeReference>HF01001.DATE_TIME</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+    </dataTable>
+    <dataTable id="HF01002">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>HF01002</entityName>
+      <entityDescription>Descriptions of wells (locations): </entityDescription>
+      <physical>
+        <objectName>HF01002.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4030/7/8a9b82e234e0c487b19984ca6f31aef0</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="HF01002.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF010</code>
+                    <definition>FSDB database code</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.LOCATION">
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>Location of well. ST-EST*=stream wtr elev at 10 m intervals along reach; P*=obs wells; G*=wells on gravel bars; rest are stream and  back channel (see map)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of well. ST-EST*=stream wtr elev at 10 m intervals along reach; P*=obs wells; G*=wells on gravel bars; rest are stream and  back channel (see map)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.SYNONYM">
+          <attributeName>SYNONYM</attributeName>
+          <attributeDefinition>Old temporary name given to the location in the field notes</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(9)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Old temporary name given to the location in the field notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.DATE_ESTABLISH">
+          <attributeName>DATE_ESTABLISH</attributeName>
+          <attributeDefinition>Date well was established or date of first sample collection at a given location</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">8/30/1989 12:00:00 AM</minimum>
+                  <maximum exclusive="false">8/1/1992 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.LENGTH">
+          <attributeName>LENGTH</attributeName>
+          <attributeDefinition>Total length of well</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">86.9000</minimum>
+                  <maximum exclusive="false">307.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.HEIGHT">
+          <attributeName>HEIGHT</attributeName>
+          <attributeDefinition>Length of well casing extending above the ground surface</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.5000</minimum>
+                  <maximum exclusive="false">100.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.SCREEN">
+          <attributeName>SCREEN</attributeName>
+          <attributeDefinition>Length of well casing 'screened' by drilling small holes into the casing (measured from bottom of well)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">48.6000</minimum>
+                  <maximum exclusive="false">50.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.WELLHEAD">
+          <attributeName>WELLHEAD</attributeName>
+          <attributeDefinition>Elevation of the top of the well casing relative to a single, arbitrarily chosen bench mark.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.8980</minimum>
+                  <maximum exclusive="false">12.4110</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.GROUND">
+          <attributeName>GROUND</attributeName>
+          <attributeDefinition>Elevation of ground surface at the well relative to a single, arbitrarily chosen bench mark.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.5820</minimum>
+                  <maximum exclusive="false">11.8730</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.XCOORD">
+          <attributeName>XCOORD</attributeName>
+          <attributeDefinition>X coordinate for location from benchmark</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">75.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.YCOORD">
+          <attributeName>YCOORD</attributeName>
+          <attributeDefinition>Y coordinate for location from benchmark</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.0000</minimum>
+                  <maximum exclusive="false">195.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.KSAT">
+          <attributeName>KSAT</attributeName>
+          <attributeDefinition>Saturated hydraulic conductivity</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters per day</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0230</minimum>
+                  <maximum exclusive="false">0.9130</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01002.LANDFORM">
+          <attributeName>LANDFORM</attributeName>
+          <attributeDefinition>Type of landfrom on which each item is located.  corresponds to study CF004 landform variable</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(9)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>STREAMBED</code>
+                    <definition>Streambed of McRae Creek</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TRIB</code>
+                    <definition>Tributary stream</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TERRACE</code>
+                    <definition>Terrace</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FAN</code>
+                    <definition>Alluvial fan</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STREAM</code>
+                    <definition>Mcrae creek</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FLOOD</code>
+                    <definition>Flood plain</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GRAVEL</code>
+                    <definition>Gravel bar</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STLET</code>
+                    <definition>Back channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SEEP</code>
+                    <definition>Seep or spring</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF01002.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF01002.LOCATION</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF01002.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF01002.LANDFORM</attributeReference>
+            <attributeReference>HF01002.LOCATION</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m/day" id="meters per day"
+          multiplierToSI="0.000011574" name="meterPerDay"
+          parentSI="meterPerSecond" unitType="speed">
+          <stmml:description>meters per day</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="cm" id="centimeters"
+          multiplierToSI="0.01" name="centimeter" parentSI="meter" unitType="length">
+          <stmml:description>centimeters; .01 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m" id="meters" multiplierToSI="1"
+          name="meter" parentSI="meter" unitType="length">
+          <stmml:description>meter; SI unit of length</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

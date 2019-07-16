@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5276.4"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CF011</alternateIdentifier>
+    <title>Carbon Dynamics in the Hyporheic Zone of a Headwater Mountain Stream in the Cascade Mountains, Oregon â Watershed 1 at HJA â June 2013 to March 2014</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Hayley</givenName>
+        <surName>Corson-Rikert</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>hacorrik@gmail.com</electronicMailAddress>
+      <electronicMailAddress>corsonrh@geo.oregonstate.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Roy</givenName>
+        <surName>Haggerty</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;Wilkinson 104;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-1210</phone>
+      <electronicMailAddress>haggertr@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/haggertr.htm</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2016-09-20</pubDate>
+    <abstract>
+      <para>This study investigated carbon dynamics in the hyporheic zone of a steep, forested catchment in the Cascade Mountains of western Oregon, USA. Water samples were collected monthly from a headwater stream and well network during baseflow conditions from July to December 2013 and again in March 2014. We also sampled during one fall storm event, collecting pre-storm, rising leg, and extended high flow samples. The well network is located at the base of Watershed 1 (WS1) of the H.J. Andrews Experimental Forest and spans the full width of the floodplain (~14 m) along a 29 m reach of stream. We measured pH, temperature, water level, major anions, major cations, DOC, DIC, and total alkalinity. Flow paths, travel time to wells and hydraulic conductivity were available from previous studies.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Carbon cycling</keyword>
+      <keyword keywordType="theme">Hyporheic zone</keyword>
+      <keyword keywordType="theme">Biogeochemistry</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>Wondzell, S. M. (2006), Effect of morphology and discharge on hyporheic exchange flows in two small streams in the Cascade Mountains of Oregon, USA, Hydrological Processes, 20(2), 267â287, doi:10.1002/hyp.5902.</para>
+      <para>Steve Wondzell
+Roy Haggerty</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Corson-Rikert, Hayley A. 2014. Carbon Dynamics in the Hyporheic Zone of a Headwater Mountain Stream in the Cascade Mountains, Oregon. Corvallis, OR: Oregon State University. 132 p. M.S. thesis.</para>
+      <para>
+        <emphasis>Related Files</emphasis>
+      </para>
+      <para>Title: Watershed 1 Well Network at the H.J. Andrews</para>
+      <para>Description: Location of HJA within OR, and location of WS1 and the well network within HJA. Flow is from right to left in the well network figure. All active wells are labeled. The image of the well network was modified from Wondzell (2006)</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/cf011/ws01_well_network.jpg</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=CF011&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Watershed 1, H.J. Andrews Experimental Forest, Western Cascades, Oregon</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25833300</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.25833300</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.20777800</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20777800</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2013-06-13</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-03-16</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>The focus of our study was to investigate inorganic and organic carbon dynamics in the hyporheic zone of a headwater catchment in the Western Cascade Mountains of Oregon. We collected water samples from a well network that spanned the full width of the riparian corridor at the base of the catchment during baseflow periods in each of 7 months. In our analysis, we sought to evaluate the influence of seasonal, physical, and biogeochemical processes on carbon cycling within this hyporheic environment.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2013-08-06</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Imported data using XLS programs.  Ran QC.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2014-09-26</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Original upload data into SQL after running and correcting QC issues.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2015-01-15</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Originator released the data due to accepted publication.</changeScope>
+        <oldValue>Version4</oldValue>
+        <changeDate>2016-09-20</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - CF011</para>
+          <para>We conducted all fieldwork in Watershed 1 at the H.J. Andrews Experimental Forest. In order to prepare the well network for sampling, we cleared all wells of accumulated sediment by flushing them once with pressurized stream water. We cleaned one half of the network in early June 2013 in preparation for a partial sampling run, and washed the remaining wells in mid-July 2013. In each case, the cleaning was performed at least a week in advance of sample collection so that water chemistry would recover and thus reflect in-situ hyporheic conditions.</para>
+          <para>On the afternoon prior to each sampling run, we recorded the pH and temperature of each well and the stream using an YSI 60 probe. We also determined the depth to water in each well using a tape measure and wet-erase marker. Following this, we removed 700 mL from each of the wells using the designated purge syringes and tubing.</para>
+          <para>The following morning, we sampled each of the 28 wells, the stream, and the hillslope well, collecting one field duplicate for every ten samples. 
+We extracted water from the wells using the acid washed 60 mL syringes, stopcocks, and 0.635 cm sample tubing. Prior to sample collection, we rinsed the sample tubing and syringes three times with approximately 180 mL of well water. We used an additional 60 mL of water to rinse the prepared GFF filters and the acid washed HDPE bottles. We then collected 250 mL of water for DOC, anion, cation, and alkalinity analysis, which we filtered in the field through the prepared glass microfiber filters into the HDPE bottles. We sampled stream water using this same technique. On a few occasions, 250 mL of unfiltered stream and well water were collected for TOC analysis. We collected sample aliquots for DIC analysis last so as to minimize exposure of the water to the atmosphere, and preserved each sample in an individual, locked, airtight syringe. We transported all samples back to the lab on ice and kept them in cold storage until analysis.</para>
+          <para>We sampled the WS1 well network at monthly intervals from July to December 2013 and then again in March 2014, focusing our sampling during baseflow or near-baseflow periods after relatively dry antecedent conditions. We obtained discharge, stream temperature, and stream conductivity data from the WS1 gaging station, located approximately 50 m below the well network. We used precipitation and temperature data recorded at the PRIMET meteorological station at the H.J. Andrews headquarters, located approximately 0.6 km from the WS1 gaging station.</para>
+          <para>FOR THE STORM:</para>
+          <para>Our sampling was conducted from November 15th â 18th. On the afternoon of November 14th, 2013, we recorded the pH and temperature of each well and the stream using an YSI 60 probe. We then removed 700 mL from each of the wells using the designated purge syringes and tubing. On the morning of the 15th, when the storm had not yet begun and the system was still at a baseflow discharge, we sampled wells D5, D6, D7, E4, G1, G2, G3, G5, G6 and the hillslope well, collecting one field duplicate. We sampled the stream at both the beginning and end of the sampling run. We collected all samples according to the method outlined in Corson-Rikert (2014).</para>
+          <para>After the initial pre-storm sampling run on the morning of the 15th, we used real-time discharge data from the WS1 gaging station (located approximately 50 m below the well network) and precipitation data from the PRIMET meteorological station (located approximately 0.6 km from the gaging station) in order to mark the onset of the storm and track the progression of the stream response. We conducted our second sampling run at the tail end of the rising leg early in the morning of November 16th. We sampled for a third time during an initial peak in the WS1 hydrograph on the afternoon of the 16th. We performed the final sampling run after a sustained period of high flow, during the afternoon of November 17th. We used the same procedure and sampled the same wells during all four sampling runs.</para>
+        </description>
+        <instrumentation>YSI 60 pH probe</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - CF011</para>
+          <para>Prior to fieldwork, we acid washed all equipment for field sample collection and lab analysis in a 10% v/v HCl acid bath according to the CCAL quality assurance plan (CCAL, unpublished, 2013). This equipment included 40 mL borosilicate vials, 250 mL Nalgene HDPE bottles, VWR 60 mL syringes with BD Luer-Lok tips, Cole-Parmer polycarbonate stopcocks with Luer connections, a 4.7 cm filter apparatus, and 0.635 cm (1/4 inch) sample tubing. In addition, we baked the 40 mL borosilicate vials that were allocated for DOC analysis at 550 ÂºC for three hours (CCAL, unpublished, 2013). We rinsed the 140 mL syringes and 0.635 cm tubing used for purging the wells in DI water and dried them in a low-temperature oven between sampling runs. We prepared Whatman 4.7 cm grade GF/F glass microfiber filters by rinsing them with 1 L of DI water, drying them, and baking them in a muffle furnace at 500 ÂºC for 3 hours (CCAL, unpublished, 2013). We stored prepared filters in clean, individual foil packets. Note that the use of trade or firm names in this publication is for reader information and does not imply endorsement by the US Department of Agriculture of any product or service.</para>
+          <para>We performed all analytical work in the IWW Collaboratory at Oregon State University. Methods for these analyses are presented below. CCAL standard operating procedures are developed primarily from the cited APHA methods, but comparable EPA methods are noted for reference. The format of all methods citations are as follows: (CCAL standard operating procedure, APHA method, EPA method, method detection limit).</para>
+          <para>Immediately prior to analysis, we filtered the DIC sample aliquots through 25 mm diameter VWR 0.45 Âµm nylon syringe filters with polypropylene housing into acid washed 40 mL borosilicate vials. We filled the vials at an angle and capped them as soon as an inverted meniscus was formed, so as to limit atmospheric exposure. We analyzed the filtered samples on a Shimadzu TOC-VSCH Combustion Carbon Analyzer within 72 hours (CCAL 21A.0, n/a, n/a, 0.05 mg/L). We modified the procedure slightly in order to account for higher concentrations of DIC in hyporheic water by using ten standards ranging in concentration from 0 to 20 ppm and including both 1 and 10 ppm check standards.</para>
+          <para>We used aliquots of the field-filtered 250 mL sample for DOC, anion, cation, and alkalinity analysis. We used the unfiltered stream and well water, when it was collected, to analyze TOC content. We determined concentrations of DOC and TOC using a Shimadzu TOC-VSCH Combustion Carbon Analyzer (CCAL 20A.2, APHA 5310B, EPA 415.1, 0.05 mg C L-1). We measured major cations K+, Na+, Mg+2, and Ca+2 on a Perkin-Elmer Atomic Absorption Spectrometer, a Perkin-Elmer AAnalyst-100 (CCAL 60B.1, APHA 3111, EPA 7000B, K+: 0.03 mg L-1, Na+: 0.01 mg L-1, Mg+2: 0.02 mg L-1, Ca+2: 0.06 mg L-1). We determined concentrations of major anions NO3-, SO4-2, Cl-, and PO4-3 on a Dionex 1500 Ion Chromatograph (CCAL 50B.1, APHA 4110B, EPA 9056A, 0.01 mg   L-1). We measured total alkalinity by titrating all samples to a pH of 4.5 on a Radiometer TIM840 AutoTitrator (CCAL 10C.0, APHA method 2320 - modifications: use 0.02N Na2CO3 and 0.02N HÂ¬2SO4, no EPA method, 0.2 mg CaCO3 L-1).</para>
+        </description>
+        <instrumentation>40 mL borosilicate vials
+250 mL Nalgene HDPE bottles
+VWR 60 mL syringes with BD Luer-Lok tips
+Cole-Parmer polycarbonate stopcocks with Luer connections
+4.7 cm filter apparatus
+Whatman 4.7 cm grade GF/F glass microfiber filters 
+0.635 cm (1/4 inch) sample tubing
+
+Shimadzu TOC-VSCH Combustion Carbon Analyzer
+Perkin-Elmer Atomic Absorption Spectrometer, a Perkin-Elmer AAnalyst-100
+Dionex 1500 Ion Chromatograph
+Radiometer TIM840 AutoTitrator</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Quality Assurance - CF011</para>
+          <para>We conducted all preparatory and analytical lab work at the Institute for Water and Watersheds Collaboratory at Oregon State University using operating procedures developed by the Oregon State University and United States Forest Service Cooperative Chemical Analytical Laboratory (CCAL) and followed the CCAL quality assurance plan.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>This study was conducted in the lower portion of Watershed 1 (WS1), a study watershed in the H.J. Andrews Experimental Forest, located in the Western Cascades of Oregon, USA (44Âº 12â 28.0â N, 122Âº 15â 30.0â W). Watershed 1 is a steep, forested catchment that is 95.9 ha in size, and ranges in elevation from 450 to 1027 m. The climate is characterized by cool, wet winters and warm, dry summers. At lower elevations, air temperatures range from an average of 1 ÂºC in January to 18ÂºC in July. The 230 cm of annual precipitation falls primarily as rain from November to March. Snow occasionally accumulates, but WS1 lies within the transient snow zone, where snow accumulates during cold winter storms, but melts during warm periods or warmer storms, so that snow packs do not persist for the entire winter. As a result, peak streamflow in WS1 occurs anytime throughout the winter and declines in summer months. Streamflow becomes so low in July, August, and September that surface flow cannot be continuously sustained, and the stream becomes spatially intermittent.</para>
+            <para>Throughout WS1, the soils are gravel clay loam, and tend to be shallow (0.5 â 2 m) and porous, allowing high rates of infiltration (Rothacher et al., 1967; Dyrness, 1969). Tuffs and breccias of the Oligocene to lower Miocene Little Butte Formation underlie the middle and lower portions of the watershed, while the upper northeast corner is underlain by an andesitic flow (Swanson and James, 1975).</para>
+            <para>From 1962 to 1966, WS1 was 100% clear-cut using skyline yarding to lift logs clear of the ground and thereby minimize soil disturbance as logs were removed from the watershed. In 1966, the logging debris (slash) was burned (Levno and Rothacher, 1969; Halpern and Franklin, 1990). Today, dense stands of Douglas fir and hemlock dominate on hillslopes. Red alder dominates the riparian zone, although maple, cottonwood, and dogwood are also present (Rothacher et al., 1967; Halpern and Franklin, 1990; Johnson and Jones, 2000). The alders established after the logging operation, and today are being over-topped by Douglas fir. As a result, many have died or fallen in recent years.</para>
+            <para>The stream channel in WS1 is steep and usually confined. It has been shaped by debris flows, which have scoured the stream to bedrock in places. Reaches where colluvium is deposited are less constrained (Wondzell, 2006).  Our study site is located in a zone of colluvial deposition near the base of WS1. The channel remains steep, with an average longitudinal gradient of 14%. The poorly sorted colluvial sediment is up to 2 m thick across the 14 m wide valley floor (Wondzell, 2006). The channel is broken into a series of pools and steps that have formed over logs and boulders (Wondzell, 2006). These steps drive 50% of hyporheic exchange between the stream and subsurface (Kasahara and Wondzell, 2003). During high and low baseflow, down-valley hydraulic gradients along this reach average 1.4 times steeper than cross-valley gradients (Wondzell, 2006). This leads to the development of extended flow paths that are parallel to the stream and to the predominance of long-timescale hyporheic exchange (Wondzell, 2006), with median residence times estimated at 17 hours (Kasahara and Wondzell, 2003). Despite these long residence times, hyporheic water in WS1 is generally oxic (Serchan, unpublished data, 2014)</para>
+            <para>The well network is located in the 14 m wide riparian zone at the base of WS1, and spans 29 m of stream length (Wondzell, 2006). When it was installed in 1997, it contained 30 shallow (~1 â 1.7 m deep) riparian wells and 7 in-stream piezometers (2006). This study was able to sample 24 wells and 4 piezometers â 9 of the original were cracked, missing, or had gone dry. The wells and piezometers are arrayed in six transects that span the width of the 14 m wide valley floor, perpendicular to the direction of flow. Both wells and piezometers are constructed of 3.175 cm (1 1/4 inch) schedule 40 PVC. An array of drilled holes serves as a screen along the bottom 50 cm of the wells and bottom 5 cm of the in-stream piezometers (Wondzell, 2006). The deepest well extends to 1.7 m, but the majority are approximately 1 m deep (Wondzell, 2006). We also sampled one hillslope well, located approximately 150 m up the watershed at the base of a hillslope hollow, which we installed during the summer of 2013.</para>
+            <para>Sampling frequency: month (except Jan. + Feb. 2014)</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>This study investigated carbon dynamics in the hyporheic zone of a steep, forested catchment in the Cascade Mountains of western Oregon, USA. Water samples were collected monthly from a headwater stream and well network during baseflow conditions from July to December 2013 and again in March 2014. We also sampled during one fall storm event, collecting pre-storm, rising leg, and extended high flow samples. The well network is located at the base of Watershed 1 (WS1) of the H.J. Andrews Experimental Forest and spans the full width of the floodplain (~14 m) along a 29 m reach of stream. We measured pH, temperature, water level, major anions, major cations, DOC, DIC, and total alkalinity.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Watershed 1 well network</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25833300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25833300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20777800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20777800</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <qualityControl>
+        <description>
+          <section>
+            <para>&lt;para&gt;We conducted all preparatory and analytical lab work at the Institute for Water and Watersheds Collaboratory at Oregon State University using operating procedures developed by the Oregon State University and United States Forest Service Cooperative Chemical Analytical Laboratory (CCAL) and followed the CCAL quality assurance plan.&lt;/para&gt;</para>
+          </section>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="CF01101">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>CF01101</entityName>
+      <entityDescription>Baseflow Sample Data: Field and chemistry data for baseflow samples</entityDescription>
+      <physical>
+        <objectName>CF01101.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5276/4/351fbd63f9c1ca13a2f6a9465328db94</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-06-13</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-03-16</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="CF01101.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database Code (assigned by FSDB data manager)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CF011</code>
+                    <definition>FSDB Database code CF011</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number (data table number)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS1WN</code>
+                    <definition>Watershed 1 well network</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.WELL">
+          <attributeName>WELL</attributeName>
+          <attributeDefinition>Name of hyporheic well</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C2</code>
+                    <definition>Sample is from well C2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C3</code>
+                    <definition>Sample is from well C3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C6</code>
+                    <definition>Sample is from well C6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C7</code>
+                    <definition>Sample is from well C7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D2</code>
+                    <definition>Sample is from well D2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D3</code>
+                    <definition>Sample is from well D3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D5</code>
+                    <definition>Sample is from well D5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D6</code>
+                    <definition>Sample is from well D6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D7</code>
+                    <definition>Sample is from well D7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E2</code>
+                    <definition>Sample is from well E2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E3</code>
+                    <definition>Sample is from well E3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E4</code>
+                    <definition>Sample is from well E4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E5</code>
+                    <definition>Sample is from well E5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E6</code>
+                    <definition>Sample is from well E6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F2</code>
+                    <definition>Sample is from well F2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F3</code>
+                    <definition>Sample is from well F3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F4</code>
+                    <definition>Sample is from well F4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F6</code>
+                    <definition>Sample is from well F6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G1</code>
+                    <definition>Sample is from well G1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G2</code>
+                    <definition>Sample is from well G2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G3</code>
+                    <definition>Sample is from well G3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G5</code>
+                    <definition>Sample is from well G5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G6</code>
+                    <definition>Sample is from well G6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H2</code>
+                    <definition>Sample is from well H2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H3</code>
+                    <definition>Sample is from well H3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H4</code>
+                    <definition>Sample is from well H4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H5</code>
+                    <definition>Sample is from well H5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H6</code>
+                    <definition>Sample is from well H6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Stream</code>
+                    <definition>Sample is from the WS1 stream between transects C and D.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UHH2</code>
+                    <definition>Sample is from the hillslope well UHH2 about 150m above the well network), at the base of a hillslope hollow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UHH3</code>
+                    <definition>Sample is from the hillslope well UHH3 about 150m above the well network), at the base of a hillslope hollow</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.RUN">
+          <attributeName>RUN</attributeName>
+          <attributeDefinition>Name of sampling run</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Sample was collected during baseflow run A on 6/13/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sample was collected during baseflow run B on 7/25/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Sample was collected during baseflow run C on 8/22/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Sample was collected during baseflow run D on 9/19/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Sample was collected during baseflow run E on 10/28/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Sample was collected during baseflow run F on 11/15/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Sample was collected during baseflow run G on 12/8/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Sample was collected during baseflow run H on 3/16/14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA1</code>
+                    <definition>Sample was collected during storm run SA1 on 11/16/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA2</code>
+                    <definition>Sample was collected during storm run SA2 on 11/16/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA3</code>
+                    <definition>Sample was collected during storm run SA3 on 11/17/13</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.SAMPLE_ID">
+          <attributeName>SAMPLE_ID</attributeName>
+          <attributeDefinition>Name of water sample</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of water sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date of collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">6/13/2013 12:00:00 AM</minimum>
+                  <maximum exclusive="false">3/16/2014 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.TIME">
+          <attributeName>TIME</attributeName>
+          <attributeDefinition>Time or approximate time of collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(13)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time or approximate time of collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.WELL_TOP">
+          <attributeName>WELL_TOP</attributeName>
+          <attributeDefinition>Height of well casing, from bottom of well</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">72.0000</minimum>
+                  <maximum exclusive="false">188.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.TOPCODE">
+          <attributeName>TOPCODE</attributeName>
+          <attributeDefinition>Well top value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Not a valid measurement for the stream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.WELL_WET">
+          <attributeName>WELL_WET</attributeName>
+          <attributeDefinition>Height of water column within well</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.0000</minimum>
+                  <maximum exclusive="false">84.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.WETCODE">
+          <attributeName>WETCODE</attributeName>
+          <attributeDefinition>Well wet value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Not a valid measurement for the stream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.WELL_HEIGHT">
+          <attributeName>WELL_HEIGHT</attributeName>
+          <attributeDefinition>Height of outside of casing, from ground surface</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.6000</minimum>
+                  <maximum exclusive="false">75.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.HEIGHTCODE">
+          <attributeName>HEIGHTCODE</attributeName>
+          <attributeDefinition>Well height value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Not a valid measurement for the stream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DEPTH_TO_WATER">
+          <attributeName>DEPTH_TO_WATER</attributeName>
+          <attributeDefinition>Depth to water table, relative to ground surface</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeters</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-18.0000</minimum>
+                  <maximum exclusive="false">163.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DEPTHCODE">
+          <attributeName>DEPTHCODE</attributeName>
+          <attributeDefinition>Depth to water value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Not a valid measurement for the stream</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.PH">
+          <attributeName>PH</attributeName>
+          <attributeDefinition>Field pH</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>pH units</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5.9000</minimum>
+                  <maximum exclusive="false">7.3000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.PHCODE">
+          <attributeName>PHCODE</attributeName>
+          <attributeDefinition>pH value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of low water level in well</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Value is abnormally low, but may be correct</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.TEMPERATURE">
+          <attributeName>TEMPERATURE</attributeName>
+          <attributeDefinition>Water temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.7000</minimum>
+                  <maximum exclusive="false">15.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.TEMPCODE">
+          <attributeName>TEMPCODE</attributeName>
+          <attributeDefinition>Temperature value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value may be questionable because of low water level in well</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Value is estimated from adjacent well because of low water level in well</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.ALKALINITY_CACO3">
+          <attributeName>ALKALINITY_CACO3</attributeName>
+          <attributeDefinition>Total Alkalinity, as mg CaCO3/L</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">15.2000</minimum>
+                  <maximum exclusive="false">32.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.ALKCODE">
+          <attributeName>ALKCODE</attributeName>
+          <attributeDefinition>Alkalinity value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DIC">
+          <attributeName>DIC</attributeName>
+          <attributeDefinition>Dissolved inorganic carbon</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.3400</minimum>
+                  <maximum exclusive="false">15.1200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DICCODE">
+          <attributeName>DICCODE</attributeName>
+          <attributeDefinition>DIC value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is somewhat questionable because of imperfect analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DOC">
+          <attributeName>DOC</attributeName>
+          <attributeDefinition>Dissolved organic carbon</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1800</minimum>
+                  <maximum exclusive="false">1.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.DOCCODE">
+          <attributeName>DOCCODE</attributeName>
+          <attributeDefinition>DOC value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.MG">
+          <attributeName>MG</attributeName>
+          <attributeDefinition>Magnesium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.7800</minimum>
+                  <maximum exclusive="false">1.6400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.MGCODE">
+          <attributeName>MGCODE</attributeName>
+          <attributeDefinition>Mg value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.CA">
+          <attributeName>CA</attributeName>
+          <attributeDefinition>Calcium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.4500</minimum>
+                  <maximum exclusive="false">7.0800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.CACODE">
+          <attributeName>CACODE</attributeName>
+          <attributeDefinition>Ca value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.K">
+          <attributeName>K</attributeName>
+          <attributeDefinition>Potassium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0700</minimum>
+                  <maximum exclusive="false">0.3200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.KCODE">
+          <attributeName>KCODE</attributeName>
+          <attributeDefinition>K value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.NA">
+          <attributeName>NA</attributeName>
+          <attributeDefinition>Sodium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.7500</minimum>
+                  <maximum exclusive="false">3.5800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.NACODE">
+          <attributeName>NACODE</attributeName>
+          <attributeDefinition>Na value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.PO4">
+          <attributeName>PO4</attributeName>
+          <attributeDefinition>Phosphate (reported as mg PO4/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0100</minimum>
+                  <maximum exclusive="false">0.1200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.PO4CODE">
+          <attributeName>PO4CODE</attributeName>
+          <attributeDefinition>PO4 value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.NO3">
+          <attributeName>NO3</attributeName>
+          <attributeDefinition>Nitrate (reported as mg NO3/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0100</minimum>
+                  <maximum exclusive="false">1.2600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.NO3CODE">
+          <attributeName>NO3CODE</attributeName>
+          <attributeDefinition>NO3 value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.SO4">
+          <attributeName>SO4</attributeName>
+          <attributeDefinition>Sulfate (reported as mg SO4/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2600</minimum>
+                  <maximum exclusive="false">1.5200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.SO4CODE">
+          <attributeName>SO4CODE</attributeName>
+          <attributeDefinition>SO4 value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.CL">
+          <attributeName>CL</attributeName>
+          <attributeDefinition>Chloride (reported as mg Cl/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5200</minimum>
+                  <maximum exclusive="false">0.9100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01101.CLCODE">
+          <attributeName>CLCODE</attributeName>
+          <attributeDefinition>Cl value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="CF01101.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>CF01101.SAMPLE_ID</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="CF01101.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>CF01101.ALKALINITY_CACO3</attributeReference>
+            <attributeReference>CF01101.ALKCODE</attributeReference>
+            <attributeReference>CF01101.CA</attributeReference>
+            <attributeReference>CF01101.CACODE</attributeReference>
+            <attributeReference>CF01101.CL</attributeReference>
+            <attributeReference>CF01101.CLCODE</attributeReference>
+            <attributeReference>CF01101.DBCODE</attributeReference>
+            <attributeReference>CF01101.DEPTHCODE</attributeReference>
+            <attributeReference>CF01101.DICCODE</attributeReference>
+            <attributeReference>CF01101.DOC</attributeReference>
+            <attributeReference>CF01101.DOCCODE</attributeReference>
+            <attributeReference>CF01101.ENTITY</attributeReference>
+            <attributeReference>CF01101.HEIGHTCODE</attributeReference>
+            <attributeReference>CF01101.K</attributeReference>
+            <attributeReference>CF01101.KCODE</attributeReference>
+            <attributeReference>CF01101.MG</attributeReference>
+            <attributeReference>CF01101.MGCODE</attributeReference>
+            <attributeReference>CF01101.NA</attributeReference>
+            <attributeReference>CF01101.NACODE</attributeReference>
+            <attributeReference>CF01101.NO3</attributeReference>
+            <attributeReference>CF01101.NO3CODE</attributeReference>
+            <attributeReference>CF01101.PHCODE</attributeReference>
+            <attributeReference>CF01101.PO4</attributeReference>
+            <attributeReference>CF01101.PO4CODE</attributeReference>
+            <attributeReference>CF01101.RUN</attributeReference>
+            <attributeReference>CF01101.SAMPLE_ID</attributeReference>
+            <attributeReference>CF01101.SITECODE</attributeReference>
+            <attributeReference>CF01101.SO4</attributeReference>
+            <attributeReference>CF01101.SO4CODE</attributeReference>
+            <attributeReference>CF01101.TEMPCODE</attributeReference>
+            <attributeReference>CF01101.TIME</attributeReference>
+            <attributeReference>CF01101.TOPCODE</attributeReference>
+            <attributeReference>CF01101.WELL</attributeReference>
+            <attributeReference>CF01101.WETCODE</attributeReference>
+            <attributeReference>CF01101.DATE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>204</numberOfRecords>
+    </dataTable>
+    <dataTable id="CF01102">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>CF01102</entityName>
+      <entityDescription>Storm Data: Field and chemistry data for storm samples</entityDescription>
+      <physical>
+        <objectName>CF01102.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5276/4/76c9e103d584105226ad6d2b39077b76</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-11-15</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-11-17</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="CF01102.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database Code (assigned by FSDB data manager)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CF011</code>
+                    <definition>FSDB Database code CF011</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number (data table number)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS1WN</code>
+                    <definition>Watershed 1 well network</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.WELL">
+          <attributeName>WELL</attributeName>
+          <attributeDefinition>Name of hyporheic well</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C2</code>
+                    <definition>Sample is from well C2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C3</code>
+                    <definition>Sample is from well C3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C6</code>
+                    <definition>Sample is from well C6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C7</code>
+                    <definition>Sample is from well C7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D2</code>
+                    <definition>Sample is from well D2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D3</code>
+                    <definition>Sample is from well D3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D5</code>
+                    <definition>Sample is from well D5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D6</code>
+                    <definition>Sample is from well D6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D7</code>
+                    <definition>Sample is from well D7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E2</code>
+                    <definition>Sample is from well E2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E3</code>
+                    <definition>Sample is from well E3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E4</code>
+                    <definition>Sample is from well E4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E5</code>
+                    <definition>Sample is from well E5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E6</code>
+                    <definition>Sample is from well E6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F2</code>
+                    <definition>Sample is from well F2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F3</code>
+                    <definition>Sample is from well F3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F4</code>
+                    <definition>Sample is from well F4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F6</code>
+                    <definition>Sample is from well F6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G1</code>
+                    <definition>Sample is from well G1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G2</code>
+                    <definition>Sample is from well G2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G3</code>
+                    <definition>Sample is from well G3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G5</code>
+                    <definition>Sample is from well G5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G6</code>
+                    <definition>Sample is from well G6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H2</code>
+                    <definition>Sample is from well H2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H3</code>
+                    <definition>Sample is from well H3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H4</code>
+                    <definition>Sample is from well H4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H5</code>
+                    <definition>Sample is from well H5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H6</code>
+                    <definition>Sample is from well H6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Stream</code>
+                    <definition>Sample is from the WS1 stream between transects C and D.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UHH2</code>
+                    <definition>Sample is from the hillslope well UHH2 about 150m above the well network), at the base of a hillslope hollow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UHH3</code>
+                    <definition>Sample is from the hillslope well UHH3 about 150m above the well network), at the base of a hillslope hollow</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.RUN">
+          <attributeName>RUN</attributeName>
+          <attributeDefinition>Name of sampling run</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Sample was collected during baseflow run A on 6/13/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sample was collected during baseflow run B on 7/25/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Sample was collected during baseflow run C on 8/22/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Sample was collected during baseflow run D on 9/19/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Sample was collected during baseflow run E on 10/28/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Sample was collected during baseflow run F on 11/15/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Sample was collected during baseflow run G on 12/8/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Sample was collected during baseflow run H on 3/16/14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA1</code>
+                    <definition>Sample was collected during storm run SA1 on 11/16/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA2</code>
+                    <definition>Sample was collected during storm run SA2 on 11/16/13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA3</code>
+                    <definition>Sample was collected during storm run SA3 on 11/17/13</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.SAMPLE_ID">
+          <attributeName>SAMPLE_ID</attributeName>
+          <attributeDefinition>Name of water sample</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of water sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.SAMPLE_DATETIME">
+          <attributeName>SAMPLE_DATETIME</attributeName>
+          <attributeDefinition>Date and time of collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">11/15/2013 8:31:00 AM</minimum>
+                  <maximum exclusive="false">11/17/2013 4:35:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.PH">
+          <attributeName>PH</attributeName>
+          <attributeDefinition>Field pH</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>pH units</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.0000</minimum>
+                  <maximum exclusive="false">7.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.PHCODE">
+          <attributeName>PHCODE</attributeName>
+          <attributeDefinition>pH value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of low water level in well</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Value is abnormally low, but may be correct</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.TEMPERATURE">
+          <attributeName>TEMPERATURE</attributeName>
+          <attributeDefinition>Water temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.3000</minimum>
+                  <maximum exclusive="false">11.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.TEMPCODE">
+          <attributeName>TEMPCODE</attributeName>
+          <attributeDefinition>Temperature value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value may be questionable because of low water level in well</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Value is estimated from adjacent well because of low water level in well</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.ALKALINITY_CACO3">
+          <attributeName>ALKALINITY_CACO3</attributeName>
+          <attributeDefinition>Total Alkalinity, as mg CaCO3/L</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">17.6000</minimum>
+                  <maximum exclusive="false">22.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.ALKCODE">
+          <attributeName>ALKCODE</attributeName>
+          <attributeDefinition>Alkalinity value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.DIC">
+          <attributeName>DIC</attributeName>
+          <attributeDefinition>Dissolved inorganic carbon</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.6400</minimum>
+                  <maximum exclusive="false">8.0400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.DICCODE">
+          <attributeName>DICCODE</attributeName>
+          <attributeDefinition>DIC value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is somewhat questionable because of imperfect analysis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.DOC">
+          <attributeName>DOC</attributeName>
+          <attributeDefinition>Dissolved organic carbon</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1900</minimum>
+                  <maximum exclusive="false">3.8500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.DOCCODE">
+          <attributeName>DOCCODE</attributeName>
+          <attributeDefinition>DOC value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.MG">
+          <attributeName>MG</attributeName>
+          <attributeDefinition>Magnesium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.9000</minimum>
+                  <maximum exclusive="false">1.4500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.MGCODE">
+          <attributeName>MGCODE</attributeName>
+          <attributeDefinition>Mg value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.CA">
+          <attributeName>CA</attributeName>
+          <attributeDefinition>Calcium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.2200</minimum>
+                  <maximum exclusive="false">6.0200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.CACODE">
+          <attributeName>CACODE</attributeName>
+          <attributeDefinition>Ca value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.K">
+          <attributeName>K</attributeName>
+          <attributeDefinition>Potassium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0800</minimum>
+                  <maximum exclusive="false">0.2600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.KCODE">
+          <attributeName>KCODE</attributeName>
+          <attributeDefinition>K value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.NA">
+          <attributeName>NA</attributeName>
+          <attributeDefinition>Sodium</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0700</minimum>
+                  <maximum exclusive="false">2.8500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.NACODE">
+          <attributeName>NACODE</attributeName>
+          <attributeDefinition>Na value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.PO4">
+          <attributeName>PO4</attributeName>
+          <attributeDefinition>Phosphate (reported as mg PO4/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0400</minimum>
+                  <maximum exclusive="false">0.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.PO4CODE">
+          <attributeName>PO4CODE</attributeName>
+          <attributeDefinition>PO4 value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.NO3">
+          <attributeName>NO3</attributeName>
+          <attributeDefinition>Nitrate (reported as mg NO3/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0100</minimum>
+                  <maximum exclusive="false">7.4700</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.NO3CODE">
+          <attributeName>NO3CODE</attributeName>
+          <attributeDefinition>NO3 value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.SO4">
+          <attributeName>SO4</attributeName>
+          <attributeDefinition>Sulfate (reported as mg SO4/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.3000</minimum>
+                  <maximum exclusive="false">0.7500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.SO4CODE">
+          <attributeName>SO4CODE</attributeName>
+          <attributeDefinition>SO4 value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.CL">
+          <attributeName>CL</attributeName>
+          <attributeDefinition>Chloride (reported as mg Cl/L)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligrams per liter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5400</minimum>
+                  <maximum exclusive="false">1.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="CF01102.CLCODE">
+          <attributeName>CLCODE</attributeName>
+          <attributeDefinition>Cl value qualifier code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Value is good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Value is questionable because of poor lab duplicate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="CF01102.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>CF01102.SAMPLE_ID</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="CF01102.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>CF01102.ALKALINITY_CACO3</attributeReference>
+            <attributeReference>CF01102.ALKCODE</attributeReference>
+            <attributeReference>CF01102.CA</attributeReference>
+            <attributeReference>CF01102.CACODE</attributeReference>
+            <attributeReference>CF01102.CL</attributeReference>
+            <attributeReference>CF01102.CLCODE</attributeReference>
+            <attributeReference>CF01102.SAMPLE_DATETIME</attributeReference>
+            <attributeReference>CF01102.DBCODE</attributeReference>
+            <attributeReference>CF01102.DIC</attributeReference>
+            <attributeReference>CF01102.DICCODE</attributeReference>
+            <attributeReference>CF01102.DOC</attributeReference>
+            <attributeReference>CF01102.DOCCODE</attributeReference>
+            <attributeReference>CF01102.ENTITY</attributeReference>
+            <attributeReference>CF01102.K</attributeReference>
+            <attributeReference>CF01102.KCODE</attributeReference>
+            <attributeReference>CF01102.MG</attributeReference>
+            <attributeReference>CF01102.MGCODE</attributeReference>
+            <attributeReference>CF01102.NA</attributeReference>
+            <attributeReference>CF01102.NACODE</attributeReference>
+            <attributeReference>CF01102.NO3</attributeReference>
+            <attributeReference>CF01102.NO3CODE</attributeReference>
+            <attributeReference>CF01102.PHCODE</attributeReference>
+            <attributeReference>CF01102.PO4</attributeReference>
+            <attributeReference>CF01102.PO4CODE</attributeReference>
+            <attributeReference>CF01102.RUN</attributeReference>
+            <attributeReference>CF01102.SAMPLE_ID</attributeReference>
+            <attributeReference>CF01102.SITECODE</attributeReference>
+            <attributeReference>CF01102.SO4</attributeReference>
+            <attributeReference>CF01102.SO4CODE</attributeReference>
+            <attributeReference>CF01102.TEMPCODE</attributeReference>
+            <attributeReference>CF01102.WELL</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>48</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="cm" id="centimeters"
+          multiplierToSI="0.01" name="centimeter" parentSI="meter" unitType="length">
+          <stmml:description>centimeters; .01 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ph" id="pH units" name="pH"
+          parentSI="unknown" unitType="undefined">
+          <stmml:description>Scale used for pH measurements</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mg/l" id="milligrams per liter"
+          multiplierToSI="0.001" name="milligramPerLiter"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>milligrams per liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

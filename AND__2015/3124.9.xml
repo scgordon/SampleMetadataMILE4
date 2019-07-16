@@ -1,0 +1,3907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3124.9"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>TD035</alternateIdentifier>
+    <title>Coarse woody debris volume and mass from line transect inventory from reference stands and inventory plots of the Pacific Northwest, 1997 to 2005</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>E.</givenName>
+        <surName>Harmon</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-8455</phone>
+      <phone>(978) 724-0045 ext 223</phone>
+      <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Becky</givenName>
+        <surName>Fasth</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;College of Forestry;Dept. of Forest Ecosystems and Society; 201L Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-8431</phone>
+      <phone>(541) 737-8460</phone>
+      <electronicMailAddress>becky.fasth@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>E.</givenName>
+        <surName>Harmon</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-8455</phone>
+      <phone>(978) 724-0045 ext 223</phone>
+      <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jay</givenName>
+        <givenName>M.</givenName>
+        <surName>Sexton</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-8430</phone>
+      <electronicMailAddress>Jay.Sexton@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2015-12-14</pubDate>
+    <abstract>
+      <para>These data can be used to provide an inventory of the volume of coarse woody debris stored in forests.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keyword keywordType="theme">Organic matter</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=TD035&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Wind River Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25781500</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.17079300</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.26974800</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20111000</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1997-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-09-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>All Organisms                           </taxonRankName>
+          <taxonRankValue>All Organisms                                                                                                                                                                                           </taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Highest common category (ca. kingdom)   </taxonRankName>
+            <taxonRankValue>Plantae                                                                                                                                                                                                 </taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Species                                 </taxonRankName>
+              <taxonRankValue>Unknown plant species                                                                                                                                                                                   </taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Coniferophyta                                                                                                                                                                                           </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Pinopsida                                                                                                                                                                                               </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Pinales                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Cupressaceae                                                                                                                                                                                            </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Thuja                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Thuja plicata                                                                                                                                                                                           </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Calocedrus                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Libocedrus decurrens                                                                                                                                                                                    </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Pinaceae                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Pseudotsuga                                                                                                                                                                                             </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pseudotsuga menziesii                                                                                                                                                                                   </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Pinus                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pinus lambertiana                                                                                                                                                                                       </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pinus contorta                                                                                                                                                                                          </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pinus jeffreyi                                                                                                                                                                                          </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pinus monticola                                                                                                                                                                                         </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Picea                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Picea engelmannii                                                                                                                                                                                       </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Picea sitchensis                                                                                                                                                                                        </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Abies                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Abies procera                                                                                                                                                                                           </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Abies concolor                                                                                                                                                                                          </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Abies amabilis                                                                                                                                                                                          </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Abies grandis                                                                                                                                                                                           </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Tsuga                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Tsuga heterophylla                                                                                                                                                                                      </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Taxales                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Taxaceae                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Taxus                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Taxus brevifolia                                                                                                                                                                                        </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Magnoliophyta                                                                                                                                                                                           </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Magnoliopsida                                                                                                                                                                                           </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Hamamelididae                                                                                                                                                                                           </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Fagales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Fagaceae                                                                                                                                                                                                </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Chrysolepis                                                                                                                                                                                             </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Castanopsis chrysophylla                                                                                                                                                                                </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Rosidae                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Sapindales                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Aceraceae                                                                                                                                                                                               </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Acer                                                                                                                                                                                                    </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Acer circinatum                                                                                                                                                                                         </taxonRankValue>
+                        </taxonomicClassification>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Acer macrophyllum                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Caryophyllidae                                                                                                                                                                                          </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Caryophyllales                                                                                                                                                                                          </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Nyctaginaceae                                                                                                                                                                                           </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Abronia                                                                                                                                                                                                 </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Abronia latifolia                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2002-01-01</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata restructured and moved into SQLServer metadata database LTERMETA. Data moved into SQLServer database FSDBDATA.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2002-02-06</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated database with with most recent data (2003)</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2005-05-26</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated entity 4 (deleted attribute 'S'; all values null) for successful metacat harvest.</changeScope>
+        <oldValue>Version8</oldValue>
+        <changeDate>2011-09-19</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Reworked data for upload to PASTA. Created sampledate from year,month,day. Changed entities to dbcode and entity.  Created plotid's for plot from place_keyword_id.  Ran QC and reset limits.  Recreated SQL structure and uploaded data.</changeScope>
+        <oldValue>Version9</oldValue>
+        <changeDate>2015-12-14</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>E.</givenName>
+        <surName>Harmon</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-8455</phone>
+      <phone>(978) 724-0045 ext 223</phone>
+      <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - TD035</para>
+          <para>All pieces of coarse woody debris greater than 10 cm diameter were measured on a 25 M transect.  Species, decay class, and diameter were recorded.  Volumes were calculated using standard line transect methods (Van Wagner, Brown).</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para/>
+            <para>Sampling frequency: once only</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Transects were systematically placed throughout the Canopy Crane plot at Wind River Experimental Forest.  Transects were 25 M long, set along boundaries of 25 x 25M subplots within the crane circle.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Watershed  6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18351000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17755000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26680800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26154400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1029</altitudeMinimum>
+                <altitudeMaximum>1029</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  7</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17920900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17387500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26974800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26457900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1102</altitudeMinimum>
+                <altitudeMaximum>1102</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  8</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17079300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17079300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26629400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26588100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1182</altitudeMinimum>
+                <altitudeMaximum>1182</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  9</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25781500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25151500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20393300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20111000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>731</altitudeMinimum>
+                <altitudeMaximum>731</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="TD03501">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>TD03501</entityName>
+      <entityDescription>Coarse Woody Debris Line Transect Inventory Data: </entityDescription>
+      <physical>
+        <objectName>TD03501_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3124/9/e3480d388fdb5d7a06b84262dbb4f40c</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1997-04-25</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2003-08-07</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="TD03501.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>FSDB Database code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.STUDYID">
+          <attributeName>STUDYID</attributeName>
+          <attributeDefinition>Individual studyid within overall project</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSGY</code>
+                    <definition>Hemlock-Spruce growth and yield</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RMRS</code>
+                    <definition>Rocky Mountain Reference Stands</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SQNP</code>
+                    <definition>Sequoia National Park</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DFGY</code>
+                    <definition>Douglas fir growth and yield</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.STAND">
+          <attributeName>STAND</attributeName>
+          <attributeDefinition>Stand  name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS06</code>
+                    <definition>Andrews Watershed  6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS07</code>
+                    <definition>Andrews Watershed  7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS08</code>
+                    <definition>Andrews Watershed  8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE</code>
+                    <definition>Wind River Experimental Forest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS09</code>
+                    <definition>Andrews Watershed  9</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.PLOT">
+          <attributeName>PLOT</attributeName>
+          <attributeDefinition>Plot name or number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WRE_CC</code>
+                    <definition>Wind River Canopy Crane Hectare</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060104</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 1, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060106</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 1, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060214</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 2, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060318</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060319</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060321</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060323</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 23</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060325</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 25</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060538</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 38</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060539</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 39</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060541</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 41</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060543</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 43</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060545</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 45</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060754</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 54</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060756</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 56</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060758</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 58</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060760</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 60</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060965</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 65</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060966</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 66</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060967</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 67</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060968</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 68</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060969</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 69</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070101</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070103</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 1, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070214</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 2, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070318</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070320</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070322</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070326</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 26</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070539</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 39</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070541</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 41</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070543</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 43</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070545</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 45</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070547</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 47</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070549</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 49</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070759</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 59</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070761</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 61</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070763</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 63</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070765</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 65</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070866</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 66</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070867</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 67</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070868</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 68</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070869</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 69</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070870</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 70</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080101</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080202</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 02</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080203</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080204</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080205</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080206</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080307</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 07</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080308</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 08</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080310</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080311</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080312</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080313</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080314</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080415</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080416</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080417</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 17</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080418</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080419</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080420</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080421</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080422</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090101</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090102</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 1, plot 02</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090203</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090204</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090205</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090306</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090307</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 07</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090308</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 08</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090309</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 09</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090410</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090411</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090412</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090413</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090514</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090515</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090516</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE_CC2</code>
+                    <definition>Wind River Canopy Crane plot 2 (CC2)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE_EW</code>
+                    <definition>Wind River Canopy Crane plot EW</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.YEAR">
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year of data collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1997.0000</minimum>
+                  <maximum exclusive="false">2003.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.LENGTH">
+          <attributeName>LENGTH</attributeName>
+          <attributeDefinition>Transect length</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10.0000</minimum>
+                  <maximum exclusive="false">30.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.SEGMENT">
+          <attributeName>SEGMENT</attributeName>
+          <attributeDefinition>Line segment name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Line segment name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.QUAD1">
+          <attributeName>QUAD1</attributeName>
+          <attributeDefinition>Quadrant1 - quad number to the left of the transect direction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">800.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.QUAD2">
+          <attributeName>QUAD2</attributeName>
+          <attributeDefinition>Quadrant 2 - quad number to the right of the transect direction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">800.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.SPECIES">
+          <attributeName>SPECIES</attributeName>
+          <attributeDefinition>Species code according to Garrison et al., 1972</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABIES</code>
+                    <definition>Abies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABAM</code>
+                    <definition>Abies amabilis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABCO</code>
+                    <definition>Abies concolor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABGR</code>
+                    <definition>Abies grandis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABPR</code>
+                    <definition>Abies procera</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABLA</code>
+                    <definition>Abronia latifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACCI</code>
+                    <definition>Acer circinatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACMA</code>
+                    <definition>Acer macrophyllum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIEN</code>
+                    <definition>Picea engelmannii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PISI</code>
+                    <definition>Picea sitchensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PICO</code>
+                    <definition>Pinus contorta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIJE</code>
+                    <definition>Pinus jeffreyi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PILA</code>
+                    <definition>Pinus lambertiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIMO</code>
+                    <definition>Pinus monticola</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSME</code>
+                    <definition>Pseudotsuga menziesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TABR</code>
+                    <definition>Taxus brevifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THPL</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSHE</code>
+                    <definition>Tsuga heterophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACH</code>
+                    <definition>Castanopsis chrysophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LIDE2</code>
+                    <definition>Libocedrus decurrens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNKN</code>
+                    <definition>Unknown plant species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.DECAY">
+          <attributeName>DECAY</attributeName>
+          <attributeDefinition>Decay class of log or snag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Decay class 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Decay class 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Decay class 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Decay class 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Decay class 2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.DIAMAX">
+          <attributeName>DIAMAX</attributeName>
+          <attributeDefinition>Maximum diameter of a CWD piece</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.0000</minimum>
+                  <maximum exclusive="false">212.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.DIAMIN">
+          <attributeName>DIAMIN</attributeName>
+          <attributeDefinition>Minimum diameter of a CWD piece</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">75.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.VOLUME">
+          <attributeName>VOLUME</attributeName>
+          <attributeDefinition>Individual cwd piece volume contribution: v=9.869*(diam^2/8l) (sum in TD03502) ref: Harmon and Sexton 1996. U.S. LTER publication #20 (pg. 24)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.000100</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.MASS">
+          <attributeName>MASS</attributeName>
+          <attributeDefinition>Individual CWD piece mass contribution (volume*density)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.COVER">
+          <attributeName>COVER</attributeName>
+          <attributeDefinition>Individual cwd piece percent cover contribution (diam/length*100)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">10.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.COMMENTS">
+          <attributeName>COMMENTS</attributeName>
+          <attributeDefinition>Comments</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03501.SAMPLEDATE">
+          <attributeName>SAMPLEDATE</attributeName>
+          <attributeDefinition>Date of data collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">4/25/1997 12:00:00 AM</minimum>
+                  <maximum exclusive="false">8/7/2003 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="TD03501.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>TD03501.DECAY</attributeReference>
+            <attributeReference>TD03501.PLOT</attributeReference>
+            <attributeReference>TD03501.STAND</attributeReference>
+            <attributeReference>TD03501.STUDYID</attributeReference>
+            <attributeReference>TD03501.DBCODE</attributeReference>
+            <attributeReference>TD03501.SEGMENT</attributeReference>
+            <attributeReference>TD03501.SPECIES</attributeReference>
+            <attributeReference>TD03501.COVER</attributeReference>
+            <attributeReference>TD03501.DIAMAX</attributeReference>
+            <attributeReference>TD03501.ENTITY</attributeReference>
+            <attributeReference>TD03501.LENGTH</attributeReference>
+            <attributeReference>TD03501.MASS</attributeReference>
+            <attributeReference>TD03501.YEAR</attributeReference>
+            <attributeReference>TD03501.VOLUME</attributeReference>
+            <attributeReference>TD03501.SAMPLEDATE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>3447</numberOfRecords>
+    </dataTable>
+    <dataTable id="TD03502">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>TD03502</entityName>
+      <entityDescription>CWD volume calculations: </entityDescription>
+      <physical>
+        <objectName>TD03502_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3124/9/7fdbe253cfe4bcc09b02de34ff4c0d9f</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1997-04-25</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2003-08-07</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="TD03502.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>FSDB Database code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.STAND">
+          <attributeName>STAND</attributeName>
+          <attributeDefinition>Stand  name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS06</code>
+                    <definition>Andrews Watershed  6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS07</code>
+                    <definition>Andrews Watershed  7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS08</code>
+                    <definition>Andrews Watershed  8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE</code>
+                    <definition>Wind River Experimental Forest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS09</code>
+                    <definition>Andrews Watershed  9</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.PLOT">
+          <attributeName>PLOT</attributeName>
+          <attributeDefinition>Plot name or number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WRE_CC</code>
+                    <definition>Wind River Canopy Crane Hectare</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060104</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 1, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060106</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 1, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060214</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 2, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060318</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060319</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060321</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060323</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 23</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060325</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 25</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060538</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 38</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060539</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 39</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060541</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 41</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060543</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 43</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060545</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 45</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060754</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 54</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060756</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 56</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060758</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 58</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060760</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 60</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060965</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 65</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060966</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 66</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060967</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 67</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060968</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 68</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060969</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 69</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070101</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070103</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 1, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070214</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 2, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070318</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070320</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070322</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070326</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 26</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070539</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 39</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070541</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 41</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070543</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 43</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070545</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 45</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070547</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 47</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070549</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 49</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070759</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 59</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070761</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 61</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070763</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 63</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070765</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 65</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070866</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 66</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070867</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 67</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070868</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 68</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070869</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 69</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070870</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 70</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080101</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080202</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 02</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080203</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080204</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080205</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080206</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080307</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 07</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080308</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 08</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080310</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080311</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080312</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080313</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080314</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080415</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080416</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080417</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 17</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080418</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080419</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080420</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080421</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080422</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090101</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090102</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 1, plot 02</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090203</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090204</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090205</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090306</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090307</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 07</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090308</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 08</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090309</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 09</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090410</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090411</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090412</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090413</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090514</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090515</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090516</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE_CC2</code>
+                    <definition>Wind River Canopy Crane plot 2 (CC2)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE_EW</code>
+                    <definition>Wind River Canopy Crane plot EW</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.YEAR">
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year of data collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1997.0000</minimum>
+                  <maximum exclusive="false">2003.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.LENGTH">
+          <attributeName>LENGTH</attributeName>
+          <attributeDefinition>Transect length</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">250.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.SEGMENT">
+          <attributeName>SEGMENT</attributeName>
+          <attributeDefinition>Line segment name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Line segment name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.QUAD1">
+          <attributeName>QUAD1</attributeName>
+          <attributeDefinition>Quadrant1 - quad number to the left of the transect direction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1000.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.QUAD2">
+          <attributeName>QUAD2</attributeName>
+          <attributeDefinition>Quadrant 2 - quad number to the right of the transect direction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1000.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.SUMVOL">
+          <attributeName>SUMVOL</attributeName>
+          <attributeDefinition>Sum volume of measured cwd pieces from a single transect (m3/m2)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.STDVOL">
+          <attributeName>STDVOL</attributeName>
+          <attributeDefinition>Standard deviation of volume summation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.SUMMASS">
+          <attributeName>SUMMASS</attributeName>
+          <attributeDefinition>Sum mass of cwd pieces from a single transect (megagrams/m3)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">5.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.STDMASS">
+          <attributeName>STDMASS</attributeName>
+          <attributeDefinition>Standard deviation of mass summation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">5.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.SUMCOVER">
+          <attributeName>SUMCOVER</attributeName>
+          <attributeDefinition>Sum percent cover of cwd pieces from a single transect</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">99.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.STDCOVER">
+          <attributeName>STDCOVER</attributeName>
+          <attributeDefinition>Standard deviation of cover summation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">99.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.NSAMPLES">
+          <attributeName>NSAMPLES</attributeName>
+          <attributeDefinition>Number of samples in summation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1000.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.COMMENTS">
+          <attributeName>COMMENTS</attributeName>
+          <attributeDefinition>Comments</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03502.SAMPLEDATE">
+          <attributeName>SAMPLEDATE</attributeName>
+          <attributeDefinition>Date of data collection</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">4/25/1997 12:00:00 AM</minimum>
+                  <maximum exclusive="false">8/7/2003 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="TD03502.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>TD03502.PLOT</attributeReference>
+            <attributeReference>TD03502.STAND</attributeReference>
+            <attributeReference>TD03502.SEGMENT</attributeReference>
+            <attributeReference>TD03502.YEAR</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="TD03502.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>TD03502.PLOT</attributeReference>
+            <attributeReference>TD03502.STAND</attributeReference>
+            <attributeReference>TD03502.DBCODE</attributeReference>
+            <attributeReference>TD03502.SEGMENT</attributeReference>
+            <attributeReference>TD03502.ENTITY</attributeReference>
+            <attributeReference>TD03502.LENGTH</attributeReference>
+            <attributeReference>TD03502.YEAR</attributeReference>
+            <attributeReference>TD03502.NSAMPLES</attributeReference>
+            <attributeReference>TD03502.SUMCOVER</attributeReference>
+            <attributeReference>TD03502.SUMMASS</attributeReference>
+            <attributeReference>TD03502.SUMVOL</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>700</numberOfRecords>
+    </dataTable>
+    <dataTable id="TD03503">
+      <alternateIdentifier>3</alternateIdentifier>
+      <entityName>TD03503</entityName>
+      <entityDescription>Wood densities: </entityDescription>
+      <physical>
+        <objectName>TD03503_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3124/9/eedcbdc72a78c5f0dc73c4b696fca4a9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="TD03503.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>FSDB Database code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03503.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.0000</minimum>
+                  <maximum exclusive="false">3.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03503.STUDYID">
+          <attributeName>STUDYID</attributeName>
+          <attributeDefinition>Individual studyid within overall project</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSGY</code>
+                    <definition>Hemlock-Spruce growth and yield</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RMRS</code>
+                    <definition>Rocky Mountain Reference Stands</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SQNP</code>
+                    <definition>Sequoia National Park</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DFGY</code>
+                    <definition>Douglas fir growth and yield</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03503.SPECIES">
+          <attributeName>SPECIES</attributeName>
+          <attributeDefinition>Species code according to Garrison et al., 1972</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABIES</code>
+                    <definition>Abies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABAM</code>
+                    <definition>Abies amabilis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABCO</code>
+                    <definition>Abies concolor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABGR</code>
+                    <definition>Abies grandis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABPR</code>
+                    <definition>Abies procera</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABLA</code>
+                    <definition>Abronia latifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACCI</code>
+                    <definition>Acer circinatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACMA</code>
+                    <definition>Acer macrophyllum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIEN</code>
+                    <definition>Picea engelmannii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PISI</code>
+                    <definition>Picea sitchensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PICO</code>
+                    <definition>Pinus contorta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIJE</code>
+                    <definition>Pinus jeffreyi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PILA</code>
+                    <definition>Pinus lambertiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIMO</code>
+                    <definition>Pinus monticola</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSME</code>
+                    <definition>Pseudotsuga menziesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TABR</code>
+                    <definition>Taxus brevifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THPL</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSHE</code>
+                    <definition>Tsuga heterophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACH</code>
+                    <definition>Castanopsis chrysophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LIDE2</code>
+                    <definition>Libocedrus decurrens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNKN</code>
+                    <definition>Unknown plant species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03503.DECAY">
+          <attributeName>DECAY</attributeName>
+          <attributeDefinition>Decay class of log or snag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Decay class 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Decay class 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Decay class 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Decay class 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Decay class 2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03503.WDENSITY">
+          <attributeName>WDENSITY</attributeName>
+          <attributeDefinition>Density of wood</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0010</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="TD03503.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>TD03503.DECAY</attributeReference>
+            <attributeReference>TD03503.STUDYID</attributeReference>
+            <attributeReference>TD03503.SPECIES</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="TD03503.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>TD03503.DECAY</attributeReference>
+            <attributeReference>TD03503.STUDYID</attributeReference>
+            <attributeReference>TD03503.DBCODE</attributeReference>
+            <attributeReference>TD03503.SPECIES</attributeReference>
+            <attributeReference>TD03503.ENTITY</attributeReference>
+            <attributeReference>TD03503.WDENSITY</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>65</numberOfRecords>
+    </dataTable>
+    <dataTable id="TD03504">
+      <alternateIdentifier>4</alternateIdentifier>
+      <entityName>TD03504</entityName>
+      <entityDescription>CWD volume, mass and nutrient stores: </entityDescription>
+      <physical>
+        <objectName>TD03504_v3.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3124/9/0e224cc18d2ac0448bfdfdd50030ec50</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="TD03504.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>FSDB Database code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.0000</minimum>
+                  <maximum exclusive="false">4.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.STAND">
+          <attributeName>STAND</attributeName>
+          <attributeDefinition>Stand  name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS06</code>
+                    <definition>Andrews Watershed  6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS07</code>
+                    <definition>Andrews Watershed  7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS08</code>
+                    <definition>Andrews Watershed  8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE</code>
+                    <definition>Wind River Experimental Forest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS09</code>
+                    <definition>Andrews Watershed  9</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.PLOT">
+          <attributeName>PLOT</attributeName>
+          <attributeDefinition>Plot name or number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WRE_CC</code>
+                    <definition>Wind River Canopy Crane Hectare</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060104</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 1, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060106</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 1, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060214</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 2, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060318</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060319</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060321</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060323</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 23</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060325</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 3, plot 25</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060538</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 38</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060539</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 39</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060541</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 41</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060543</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 43</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060545</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 5, plot 45</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060754</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 54</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060756</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 56</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060758</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 58</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060760</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 7, plot 60</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060965</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 65</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060966</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 66</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060967</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 67</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060968</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 68</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS060969</code>
+                    <definition>Permanent Watershed Plot in Watershed 6, transect 9, plot 69</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070101</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070103</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 1, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070214</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 2, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070318</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070320</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070322</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070326</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 3, plot 26</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070539</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 39</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070541</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 41</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070543</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 43</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070545</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 45</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070547</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 47</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070549</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 5, plot 49</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070759</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 59</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070761</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 61</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070763</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 63</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070765</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 7, plot 65</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070866</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 66</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070867</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 67</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070868</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 68</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070869</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 69</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS070870</code>
+                    <definition>Permanent Watershed Plot in Watershed 7, transect 8, plot 70</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080101</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080202</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 02</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080203</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080204</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080205</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080206</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 2, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080307</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 07</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080308</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 08</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080310</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080311</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080312</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080313</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080314</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 3, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080415</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080416</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080417</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 17</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080418</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 18</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080419</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 19</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080420</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 20</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080421</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 21</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS080422</code>
+                    <definition>Permanent Watershed Plot in Watershed 8, transect 4, plot 22</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090101</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 1, plot 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090102</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 1, plot 02</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090203</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 03</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090204</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 04</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090205</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 2, plot 05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090306</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 06</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090307</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 07</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090308</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 08</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090309</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 3, plot 09</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090410</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090411</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 11</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090412</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 12</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090413</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 4, plot 13</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090514</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 14</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090515</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 15</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS090516</code>
+                    <definition>Permanent Watershed Plot in Watershed 9, transect 5, plot 16</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE_CC2</code>
+                    <definition>Wind River Canopy Crane plot 2 (CC2)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WRE_EW</code>
+                    <definition>Wind River Canopy Crane plot EW</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.SPECIES">
+          <attributeName>SPECIES</attributeName>
+          <attributeDefinition>Species code according to Garrison et al., 1972</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABIES</code>
+                    <definition>Abies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABAM</code>
+                    <definition>Abies amabilis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABCO</code>
+                    <definition>Abies concolor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABGR</code>
+                    <definition>Abies grandis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABPR</code>
+                    <definition>Abies procera</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABLA</code>
+                    <definition>Abronia latifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACCI</code>
+                    <definition>Acer circinatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACMA</code>
+                    <definition>Acer macrophyllum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIEN</code>
+                    <definition>Picea engelmannii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PISI</code>
+                    <definition>Picea sitchensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PICO</code>
+                    <definition>Pinus contorta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIJE</code>
+                    <definition>Pinus jeffreyi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PILA</code>
+                    <definition>Pinus lambertiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIMO</code>
+                    <definition>Pinus monticola</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSME</code>
+                    <definition>Pseudotsuga menziesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TABR</code>
+                    <definition>Taxus brevifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THPL</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSHE</code>
+                    <definition>Tsuga heterophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACH</code>
+                    <definition>Castanopsis chrysophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LIDE2</code>
+                    <definition>Libocedrus decurrens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNKN</code>
+                    <definition>Unknown plant species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.DECAY">
+          <attributeName>DECAY</attributeName>
+          <attributeDefinition>Decay class of log or snag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Decay class 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Decay class 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Decay class 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Decay class 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Decay class 2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.NSAMPLES">
+          <attributeName>NSAMPLES</attributeName>
+          <attributeDefinition>Number of samples in summation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">119.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.SLOPE">
+          <attributeName>SLOPE</attributeName>
+          <attributeDefinition>Slope of plot</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">60.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.SLPCORR">
+          <attributeName>SLPCORR</attributeName>
+          <attributeDefinition>Applied slope correction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.000100</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.9950</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.TVOL">
+          <attributeName>TVOL</attributeName>
+          <attributeDefinition>Total volume of logs</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.2300</minimum>
+                  <maximum exclusive="false">423.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.TMASS">
+          <attributeName>TMASS</attributeName>
+          <attributeDefinition>Total mass of logs</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1700</minimum>
+                  <maximum exclusive="false">132.1200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.TPCOVER">
+          <attributeName>TPCOVER</attributeName>
+          <attributeDefinition>Total percent cover of logs</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1000</minimum>
+                  <maximum exclusive="false">5.6300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.CORRVOL">
+          <attributeName>CORRVOL</attributeName>
+          <attributeDefinition>Total volume of logs corrected for slope</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.2360</minimum>
+                  <maximum exclusive="false">437.2370</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.CORRMASS">
+          <attributeName>CORRMASS</attributeName>
+          <attributeDefinition>Total mass of logs corrected for slope</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1750</minimum>
+                  <maximum exclusive="false">141.3380</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.CORRCOVER">
+          <attributeName>CORRCOVER</attributeName>
+          <attributeDefinition>Total percent cover of logs corrected for slope</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1000</minimum>
+                  <maximum exclusive="false">5.8900</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.N">
+          <attributeName>N</attributeName>
+          <attributeDefinition>Nitrogen stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2170</minimum>
+                  <maximum exclusive="false">143.7750</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.P">
+          <attributeName>P</attributeName>
+          <attributeDefinition>Phosphorous stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0110</minimum>
+                  <maximum exclusive="false">14.4190</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.K">
+          <attributeName>K</attributeName>
+          <attributeDefinition>Potassium stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0300</minimum>
+                  <maximum exclusive="false">419.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.CA">
+          <attributeName>CA</attributeName>
+          <attributeDefinition>Calcium stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2980</minimum>
+                  <maximum exclusive="false">761.6800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.MG">
+          <attributeName>MG</attributeName>
+          <attributeDefinition>Magnesium stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0350</minimum>
+                  <maximum exclusive="false">33.4650</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.MN">
+          <attributeName>MN</attributeName>
+          <attributeDefinition>Manganese stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0090</minimum>
+                  <maximum exclusive="false">15.6320</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03504.NA">
+          <attributeName>NA</attributeName>
+          <attributeDefinition>Sodium stored (kg/ha)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0090</minimum>
+                  <maximum exclusive="false">4.2400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="TD03504.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>TD03504.DECAY</attributeReference>
+            <attributeReference>TD03504.PLOT</attributeReference>
+            <attributeReference>TD03504.STAND</attributeReference>
+            <attributeReference>TD03504.DBCODE</attributeReference>
+            <attributeReference>TD03504.SPECIES</attributeReference>
+            <attributeReference>TD03504.CORRCOVER</attributeReference>
+            <attributeReference>TD03504.CORRMASS</attributeReference>
+            <attributeReference>TD03504.CORRVOL</attributeReference>
+            <attributeReference>TD03504.ENTITY</attributeReference>
+            <attributeReference>TD03504.NSAMPLES</attributeReference>
+            <attributeReference>TD03504.SLOPE</attributeReference>
+            <attributeReference>TD03504.SLPCORR</attributeReference>
+            <attributeReference>TD03504.TMASS</attributeReference>
+            <attributeReference>TD03504.TPCOVER</attributeReference>
+            <attributeReference>TD03504.TVOL</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>469</numberOfRecords>
+    </dataTable>
+    <dataTable id="TD03505">
+      <alternateIdentifier>5</alternateIdentifier>
+      <entityName>TD03505</entityName>
+      <entityDescription>Nutrient concentrations in wood: </entityDescription>
+      <physical>
+        <objectName>TD03505_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3124/9/b051ea721baf43cbc825742d3e776af4</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="TD03505.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>FSDB Database code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">5.0000</minimum>
+                  <maximum exclusive="false">5.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.STUDYID">
+          <attributeName>STUDYID</attributeName>
+          <attributeDefinition>Individual studyid within overall project</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HSGY</code>
+                    <definition>Hemlock-Spruce growth and yield</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RMRS</code>
+                    <definition>Rocky Mountain Reference Stands</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SQNP</code>
+                    <definition>Sequoia National Park</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DFGY</code>
+                    <definition>Douglas fir growth and yield</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.SPECIES">
+          <attributeName>SPECIES</attributeName>
+          <attributeDefinition>Species code according to Garrison et al., 1972</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABIES</code>
+                    <definition>Abies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABAM</code>
+                    <definition>Abies amabilis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABCO</code>
+                    <definition>Abies concolor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABGR</code>
+                    <definition>Abies grandis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABPR</code>
+                    <definition>Abies procera</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ABLA</code>
+                    <definition>Abronia latifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACCI</code>
+                    <definition>Acer circinatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACMA</code>
+                    <definition>Acer macrophyllum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIEN</code>
+                    <definition>Picea engelmannii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PISI</code>
+                    <definition>Picea sitchensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PICO</code>
+                    <definition>Pinus contorta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIJE</code>
+                    <definition>Pinus jeffreyi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PILA</code>
+                    <definition>Pinus lambertiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIMO</code>
+                    <definition>Pinus monticola</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSME</code>
+                    <definition>Pseudotsuga menziesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TABR</code>
+                    <definition>Taxus brevifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THPL</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSHE</code>
+                    <definition>Tsuga heterophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACH</code>
+                    <definition>Castanopsis chrysophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LIDE2</code>
+                    <definition>Libocedrus decurrens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNKN</code>
+                    <definition>Unknown plant species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.DECAY">
+          <attributeName>DECAY</attributeName>
+          <attributeDefinition>Decay class of log or snag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Decay class 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Decay class 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Decay class 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Decay class 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Decay class 2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_N">
+          <attributeName>WOOD_N</attributeName>
+          <attributeDefinition>Nitrogen content in wood in parts per million (see TD012 Entity 2 sources)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">230.0000</minimum>
+                  <maximum exclusive="false">6960.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_P">
+          <attributeName>WOOD_P</attributeName>
+          <attributeDefinition>Phosphorus in wood in parts per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">15.0000</minimum>
+                  <maximum exclusive="false">460.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_K">
+          <attributeName>WOOD_K</attributeName>
+          <attributeDefinition>Potassium in wood in parts per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">90.0000</minimum>
+                  <maximum exclusive="false">26180.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_CA">
+          <attributeName>WOOD_CA</attributeName>
+          <attributeDefinition>Calcium in wood in parts per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">625.0000</minimum>
+                  <maximum exclusive="false">47580.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_MG">
+          <attributeName>WOOD_MG</attributeName>
+          <attributeDefinition>Magnesium in wood in parts per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">70.0000</minimum>
+                  <maximum exclusive="false">2040.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_MN">
+          <attributeName>WOOD_MN</attributeName>
+          <attributeDefinition>Manganese in wood in parts per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">529.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_NA">
+          <attributeName>WOOD_NA</attributeName>
+          <attributeDefinition>Sodium in wood in parts per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">193.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TD03505.WOOD_S">
+          <attributeName>WOOD_S</attributeName>
+          <attributeDefinition>Sulfur in wood in patrs per million</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="TD03505.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>TD03505.DECAY</attributeReference>
+            <attributeReference>TD03505.STUDYID</attributeReference>
+            <attributeReference>TD03505.DBCODE</attributeReference>
+            <attributeReference>TD03505.SPECIES</attributeReference>
+            <attributeReference>TD03505.ENTITY</attributeReference>
+            <attributeReference>TD03505.WOOD_MG</attributeReference>
+            <attributeReference>TD03505.WOOD_N</attributeReference>
+            <attributeReference>TD03505.WOOD_P</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>71</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="centimeters" multiplierToSI="0.01"
+          name="centimeters" parentSI="meter" unitType="length">
+          <stmml:description>centimeters; .01 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="meters" multiplierToSI="1" name="meters"
+          parentSI="meter" unitType="length">
+          <stmml:description>meter; SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="year (yyyy)" multiplierToSI="1"
+          name="year (yyyy)" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime">
+          <stmml:description>year (4 character) portion of date</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="megagrams per cubic meter" multiplierToSI="1"
+          name="megagrams per cubic meter"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>megagrams per cubic meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="cubic meters per square meter"
+          multiplierToSI="1" name="cubic meters per square meter"
+          parentSI="literPerMeterSquared" unitType="volumetricArea">
+          <stmml:description>cubic meters per square meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="grams per cubic centimeter"
+          multiplierToSI="1000" name="grams per cubic centimeter"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>grams per cubic centimeter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="kilograms per hectare" multiplierToSI="0.0001"
+          name="kilograms per hectare"
+          parentSI="kilogramPerMeterSquared" unitType="arealMassDensity">
+          <stmml:description>kilograms per hectare</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="megagrams per hectare" multiplierToSI="1"
+          name="megagrams per hectare"
+          parentSI="kilogramPerMeterSquared" unitType="arealMassDensity">
+          <stmml:description>megagrams per hectare</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="cubic meters per hectare" multiplierToSI="1"
+          name="cubic meters per hectare"
+          parentSI="literPerMeterSquared" unitType="volumetricArea">
+          <stmml:description>cubic meters per hectare</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="parts per million" multiplierToSI="0.001"
+          name="parts per million" parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>parts per million</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="percent" multiplierToSI="1" name="percent"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

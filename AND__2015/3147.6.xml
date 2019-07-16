@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3147.6"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xd;&#xa;     http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>WE027</alternateIdentifier>
+    <title>Vertebrate-habitat relationships: Logistic regression models predict probability of occurrence of bird and small mammal species in western Oregon</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <surName>Test</surName>
+      </individualName>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>L.</givenName>
+        <surName>Garman</surName>
+      </individualName>
+      <address>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>SLGarman@usgs.gov</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>L.</givenName>
+        <surName>Garman</surName>
+      </individualName>
+      <address>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>SLGarman@usgs.gov</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2013-07-08</pubDate>
+    <abstract>
+      <para>Logistic regression models predicting probability of occurrence of bird and of
+        small-mammal species were produced using animal-habitat data sets from throughout western
+        Oregon (Garman and Cole 1999 - Vertebrate Habitat Relationships Data Bank (VHRDB), Report to
+        Coastal Landscape Analysis and Modeling Study). Regression coefficients, variables, and
+        metrics related to model predictions are provided here under Entity 1, and in VHRDB as
+        VERTLOGR.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Animal-habitat modeling</keyword>
+      <keyword keywordType="taxonomic">Birds</keyword>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keyword keywordType="theme">Populations</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these
+        web pages can be downloaded for academic, research, recreational, and other professional
+        purposes. Permission to download data sets is granted to the Data User without a fee subject
+        to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact)
+              when any derivative work based on or derived from the data and documentation is
+              distributed; </para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original
+              data and documentation distributed by the Andrews LTER; </para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; </para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in
+              any publications using these data and documentation. (See general acknowledgement
+              below and see web page for specific data citation for each study data set); </para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and
+              documentation to the following address: Andrews Experimental Forest LTER Program, c/o
+              Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331 </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the
+        terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to
+        terminate this agreement immediately by written notice upon the Data User's breach of, or
+        non-compliance with, any of its terms. The Data User may be held responsible for any misuse
+        that is caused or encouraged by the Data User's failure to abide by the terms of this
+        agreement. Thank you for your cooperation. We hope your collaboration with our site is a
+        productive one!</para>
+      <para> Disclaimer: While substantial efforts are made to ensure the accuracy of data and
+        documentation, complete accuracy of data sets cannot be guaranteed. All data are made
+        available "as is". The Andrews Experimental Forest LTER shall not be liable for damages
+        resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement: Data were provided by the HJ Andrews Experimental Forest
+        research program, funded by the National Science Foundation's Long-Term Ecological Research
+        Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon
+        State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=WE027&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1998-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1999-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>All Organisms                           </taxonRankName>
+          <taxonRankValue>All Organisms                                                                                                                                                                                           </taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Highest common category (ca. kingdom)   </taxonRankName>
+            <taxonRankValue>Animalia                                                                                                                                                                                                </taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Class                                   </taxonRankName>
+              <taxonRankValue>Aves                                                                                                                                                                                                    </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Order                                   </taxonRankName>
+                <taxonRankValue>Passeriformes                                                                                                                                                                                           </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Fringillidae                                                                                                                                                                                            </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Coccothraustes                                                                                                                                                                                          </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Coccothraustes vespertinus                                                                                                                                                                              </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Carduelis                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Carduelis pinus                                                                                                                                                                                         </taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Carduelis tristis                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Carpodacus                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Carpodacus purpureus                                                                                                                                                                                    </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Loxia                                                                                                                                                                                                   </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Loxia curvirostra                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Thraupidae                                                                                                                                                                                              </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Piranga                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Piranga ludoviciana                                                                                                                                                                                     </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Regulidae                                                                                                                                                                                               </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Regulus                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Regulus satrapa                                                                                                                                                                                         </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Certhiidae                                                                                                                                                                                              </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Certhia                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Certhia americana                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Paridae                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Poecile                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Poecile rufescens                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Corvidae                                                                                                                                                                                                </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Perisoreus                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Perisoreus canadensis                                                                                                                                                                                   </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Cyanocitta                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Cyanocitta stelleri                                                                                                                                                                                     </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Tyrannidae                                                                                                                                                                                              </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Empidonax                                                                                                                                                                                               </taxonRankValue>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Vireonidae                                                                                                                                                                                              </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Vireo                                                                                                                                                                                                   </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Vireo gilvus                                                                                                                                                                                            </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Sittidae                                                                                                                                                                                                </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Sitta                                                                                                                                                                                                   </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Sitta canadensis                                                                                                                                                                                        </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Troglodytidae                                                                                                                                                                                           </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Troglodytes                                                                                                                                                                                             </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Troglodytes troglodytes                                                                                                                                                                                 </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Turdidae                                                                                                                                                                                                </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Ixoreus                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Ixoreus naevius                                                                                                                                                                                         </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Catharus                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Catharus guttatus                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Catharus ustulatus                                                                                                                                                                                      </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Turdus                                                                                                                                                                                                  </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Turdus migratorius                                                                                                                                                                                      </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Parulidae                                                                                                                                                                                               </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Oporornis                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Oporornis tolmiei                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Dendroica                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Dendroica townsendi                                                                                                                                                                                     </taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Dendroica coronata                                                                                                                                                                                      </taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Dendroica nigrescens                                                                                                                                                                                    </taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Dendroica occidentalis                                                                                                                                                                                  </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Vermivora                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Vermivora celata                                                                                                                                                                                        </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Wilsonia                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Wilsonia pusilla                                                                                                                                                                                        </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Emberizidae                                                                                                                                                                                             </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Junco                                                                                                                                                                                                   </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Junco hyemalis                                                                                                                                                                                          </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Melospiza                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Melospiza melodia                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Pipilo                                                                                                                                                                                                  </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Pipilo maculatus                                                                                                                                                                                        </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Zonotrichia                                                                                                                                                                                             </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Zonotrichia leucophrys                                                                                                                                                                                  </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Cardinalidae                                                                                                                                                                                            </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Pheucticus                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Pheucticus melanocephalus                                                                                                                                                                               </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Order                                   </taxonRankName>
+                <taxonRankValue>Columbiformes                                                                                                                                                                                           </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Columbidae                                                                                                                                                                                              </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Columba                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Columba fasciata                                                                                                                                                                                        </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Order                                   </taxonRankName>
+                <taxonRankValue>Piciformes                                                                                                                                                                                              </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Family                                  </taxonRankName>
+                  <taxonRankValue>Picidae                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Colaptes                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Colaptes auratus                                                                                                                                                                                        </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Picoides                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Picoides villosus                                                                                                                                                                                       </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus                                   </taxonRankName>
+                    <taxonRankValue>Dryocopus                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Species                                 </taxonRankName>
+                      <taxonRankValue>Dryocopus pileatus                                                                                                                                                                                      </taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Class                                   </taxonRankName>
+              <taxonRankValue>Mammalia                                                                                                                                                                                                </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Genus                                   </taxonRankName>
+                <taxonRankValue>Phenacomys                                                                                                                                                                                              </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Species                                 </taxonRankName>
+                  <taxonRankValue>Phenacomys longicaudus                                                                                                                                                                                  </taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Genus                                   </taxonRankName>
+                <taxonRankValue>Peromyscus                                                                                                                                                                                              </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Species                                 </taxonRankName>
+                  <taxonRankValue>Peromyscus maniculatus                                                                                                                                                                                  </taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Genus                                   </taxonRankName>
+                <taxonRankValue>Microtus                                                                                                                                                                                                </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Species                                 </taxonRankName>
+                  <taxonRankValue>Microtus oregoni                                                                                                                                                                                        </taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Genus                                   </taxonRankName>
+                <taxonRankValue>Clethrionomys                                                                                                                                                                                           </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Species                                 </taxonRankName>
+                  <taxonRankValue>Clethrionomys californicus                                                                                                                                                                              </taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Genus                                   </taxonRankName>
+                <taxonRankValue>Neurotrichus                                                                                                                                                                                            </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Species                                 </taxonRankName>
+                  <taxonRankValue>Neurotrichus gibbsii                                                                                                                                                                                    </taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Genus                                   </taxonRankName>
+                <taxonRankValue>Tamias                                                                                                                                                                                                  </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Species                                 </taxonRankName>
+                  <taxonRankValue>Tamias townsendii                                                                                                                                                                                       </taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <purpose>
+      <para>The goal of the Vertebrate Habitat Relationships Data Bank (VHRDB) effort was to provide
+        an organized and documented repository of empirical wildlife-habitat data sets from
+        throughout western Oregon.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new version of every dataset.
+          </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1999-06-01</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata restructured and moved into SQLServer metadata database LTERMETA. Data moved into SQLServer database FSDBDATA.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2002-03-05</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Non-critical update to force reharvest of EML for this study database.  Addition of ACCESS code to EML and syntax updates</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2005-07-25</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Non-critical update to test new EML generating program and prepare EML for congruency checker test</changeScope>
+        <oldValue>Version5</oldValue>
+        <changeDate>2011-09-14</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Entity is rewritten with /n/r delimeter (previous versions are /n delimeter). Data collection status changed to "Complete" (progress_id=1).</changeScope>
+        <oldValue>Version6</oldValue>
+        <changeDate>2013-07-08</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Models/Algorithms - WE027</para>
+          <para>Species-specific logistic regression models predict logit(p) from habitat measures,
+            which are used here to derive the probability of occurrence (Prob):</para>
+          <para> Prob= Exp[logit(p)]/[1+Exp(logit(p))], where Prob ranges from 0 to
+          1.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled
+          opportunities for the study of forest and stream ecosystems in the central Cascade Range
+          of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological
+          Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the
+          analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics,
+          streamflow, water quality, and vegetation succession. Currently researchers are working to
+          develop concepts and tools needed to predict effects of natural disturbance, land use, and
+          climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest
+          Service Pacific Northwest Research Station, Oregon State University and the Willamette
+          National Forest. Funding for the research program comes from the National Science
+          Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State
+          University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by
+        the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US
+        Forest Service Pacific Northwest Research Station, and Oregon State University. National
+        Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="WE02701">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>WE02701</entityName>
+      <entityDescription>Vertebrate Logistic Regression Models: </entityDescription>
+      <physical>
+        <objectName>WE02701_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3147/6/8342bfbf4fa8a1b25a1cab0a907a0b64</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="WE02701.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>Study code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Study code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Format</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.PROVENCE">
+          <attributeName>PROVENCE</attributeName>
+          <attributeDefinition>Provence</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ORCA</code>
+                    <definition>Oregon Cascade Range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ORCO</code>
+                    <definition>Oregon Coast Range</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.TAXA">
+          <attributeName>TAXA</attributeName>
+          <attributeDefinition>Taxa</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Birds</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Mammals</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.SPECIES">
+          <attributeName>SPECIES</attributeName>
+          <attributeDefinition>Species code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BTPI</code>
+                    <definition>Columba fasciata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HAWO</code>
+                    <definition>Picoides villosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NOFL</code>
+                    <definition>Colaptes auratus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PIWO</code>
+                    <definition>Dryocopus pileatus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EMFL</code>
+                    <definition>Empidonax</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSFL</code>
+                    <definition>Empidonax difficilis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAVI</code>
+                    <definition>Vireo gilvus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GRJA</code>
+                    <definition>Perisoreus canadensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STJA</code>
+                    <definition>Cyanocitta stelleri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CBCH</code>
+                    <definition>Poecile rufescens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RBNU</code>
+                    <definition>Sitta canadensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BRCR</code>
+                    <definition>Certhia americana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WIWR</code>
+                    <definition>Troglodytes troglodytes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GCKI</code>
+                    <definition>Regulus satrapa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SWTH</code>
+                    <definition>Catharus ustulatus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HETH</code>
+                    <definition>Catharus guttatus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMRO</code>
+                    <definition>Turdus migratorius</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VATH</code>
+                    <definition>Ixoreus naevius</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OCWA</code>
+                    <definition>Vermivora celata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YRWA</code>
+                    <definition>Dendroica coronata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BTYW</code>
+                    <definition>Dendroica nigrescens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TOWA</code>
+                    <definition>Dendroica townsendi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HEWA</code>
+                    <definition>Dendroica occidentalis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MGWA</code>
+                    <definition>Oporornis tolmiei</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WIWA</code>
+                    <definition>Wilsonia pusilla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WETA</code>
+                    <definition>Piranga ludoviciana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPTO</code>
+                    <definition>Pipilo maculatus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SOSP</code>
+                    <definition>Melospiza melodia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WCSP</code>
+                    <definition>Zonotrichia leucophrys</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DEJU</code>
+                    <definition>Junco hyemalis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BHGR</code>
+                    <definition>Pheucticus melanocephalus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PUFI</code>
+                    <definition>Carpodacus purpureus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RECR</code>
+                    <definition>Loxia curvirostra</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PISI</code>
+                    <definition>Carduelis pinus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMGO</code>
+                    <definition>Carduelis tristis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EVGR</code>
+                    <definition>Coccothraustes vespertinus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CLCA</code>
+                    <definition>Clethrionomys californicus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIOR</code>
+                    <definition>Microtus oregoni</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NEGI</code>
+                    <definition>Neurotrichus gibbsii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PEMA</code>
+                    <definition>Peromyscus maniculatus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TATO</code>
+                    <definition>Tamias townsendii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHLO</code>
+                    <definition>Phenacomys longicaudus</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.ABSENT">
+          <attributeName>ABSENT</attributeName>
+          <attributeDefinition>Numbers of stations not recording the species</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">10</minimum>
+                  <maximum exclusive="false">124</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.PRESENT">
+          <attributeName>PRESENT</attributeName>
+          <attributeDefinition>Numbers of stations recording the species</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">12</minimum>
+                  <maximum exclusive="false">129</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.CE">
+          <attributeName>CE</attributeName>
+          <attributeDefinition>Classification efficiency</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">58.7</minimum>
+                  <maximum exclusive="false">98</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.SIGNIF">
+          <attributeName>SIGNIF</attributeName>
+          <attributeDefinition>Significance level</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>P&lt;0.05</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>P&lt;0.025</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>P&lt;0.01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>P&lt;0.001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>P&lt;0.001</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.OM">
+          <attributeName>OM</attributeName>
+          <attributeDefinition>Omission error</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.4</minimum>
+                  <maximum exclusive="false">30.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.CO">
+          <attributeName>CO</attributeName>
+          <attributeDefinition>Commision error</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">31.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.B0">
+          <attributeName>B0</attributeName>
+          <attributeDefinition>Intercept term</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(10,5)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1E-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-9.6161</minimum>
+                  <maximum exclusive="false">4.1207</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.B1">
+          <attributeName>B1</attributeName>
+          <attributeDefinition>Var1 coefficient</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(10,5)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1E-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.2653</minimum>
+                  <maximum exclusive="false">5.1626</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.VAR1">
+          <attributeName>VAR1</attributeName>
+          <attributeDefinition>First variable</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CHDI</code>
+                    <definition>Canopy Height Diversity Index (see VHRDB report)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT1-5</code>
+                    <definition>Density (no./ha) of all conifer stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT2-3</code>
+                    <definition>Density (no./ha) of conifer stems 11-50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT2-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT3</code>
+                    <definition>Density (no./ha) of conifer stems 31-50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT3-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT4-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;90cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT1</code>
+                    <definition>Density (no./ha) of hardwood stems 2-10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT1-5</code>
+                    <definition>Density (no./ha) of all hardwood stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT2</code>
+                    <definition>Density (no./ha) of hardwood stems 11-30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT2-5</code>
+                    <definition>Density (no./ha) of harwdoos stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOGSS</code>
+                    <definition>Density (no./ha) of logs 10-30cm large-end diameter, decay classes 2-5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHT1-5</code>
+                    <definition>(density of hardwood stems/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHT2-3</code>
+                    <definition>(density of hardwood stems 11-50cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot1</code>
+                    <definition>(density of stems 2-10cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot2</code>
+                    <definition>(density of stems 11-30cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot2-5</code>
+                    <definition>(density of stems &gt;10-cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot4</code>
+                    <definition>(density of stems 51-90cm dbh/ total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot4-5</code>
+                    <definition>(density of stems &gt;50cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot5</code>
+                    <definition>(density of stems &gt;90cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Shrub</code>
+                    <definition>Percent shrub cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SnagL</code>
+                    <definition>Density (no./ha) of snags &gt;50-cm dbh, &gt;3-m tall</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SnagS</code>
+                    <definition>Density (no./ha) of snags 10-30cm dbh, &gt;3-m tall, all decay classes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Soft10</code>
+                    <definition>Density (no./ha) of snags 10-30cm dbh, &gt;3-m tall, decay classes 3-5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T1T45</code>
+                    <definition>Density of stems 2-10cm dbh/density of stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T1T5</code>
+                    <definition>Density of stems 2-10cm dbh/density of stems &gt;90cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot1</code>
+                    <definition>Density (no./ha) of stems 2-10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot1-5</code>
+                    <definition>Density (no./ha) of all stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot2</code>
+                    <definition>Density (no./ha) of stems 11-30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot2-5</code>
+                    <definition>Density (no./ha) of stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot3-5</code>
+                    <definition>Density )no./ha) of stems &gt;30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot4-5</code>
+                    <definition>Density (no./ha) of stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot5</code>
+                    <definition>Density (no./ha) of stems &gt;90cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TotSn</code>
+                    <definition>Density (no./ha) of snags &gt;10cm dbh, &gt;3-m tall, all decay classes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>na</code>
+                    <definition>Not applicable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.B2">
+          <attributeName>B2</attributeName>
+          <attributeDefinition>Var2 coefficient</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(10,5)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1E-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.3297</minimum>
+                  <maximum exclusive="false">0.593</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.VAR2">
+          <attributeName>VAR2</attributeName>
+          <attributeDefinition>Second variable</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CHDI</code>
+                    <definition>Canopy Height Diversity Index (see VHRDB report)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT1-5</code>
+                    <definition>Density (no./ha) of all conifer stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT2-3</code>
+                    <definition>Density (no./ha) of conifer stems 11-50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT2-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT3</code>
+                    <definition>Density (no./ha) of conifer stems 31-50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT3-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT4-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;90cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT1</code>
+                    <definition>Density (no./ha) of hardwood stems 2-10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT1-5</code>
+                    <definition>Density (no./ha) of all hardwood stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT2</code>
+                    <definition>Density (no./ha) of hardwood stems 11-30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT2-5</code>
+                    <definition>Density (no./ha) of harwdoos stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOGSS</code>
+                    <definition>Density (no./ha) of logs 10-30cm large-end diameter, decay classes 2-5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHT1-5</code>
+                    <definition>(density of hardwood stems/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHT2-3</code>
+                    <definition>(density of hardwood stems 11-50cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot1</code>
+                    <definition>(density of stems 2-10cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot2</code>
+                    <definition>(density of stems 11-30cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot2-5</code>
+                    <definition>(density of stems &gt;10-cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot4</code>
+                    <definition>(density of stems 51-90cm dbh/ total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot4-5</code>
+                    <definition>(density of stems &gt;50cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot5</code>
+                    <definition>(density of stems &gt;90cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Shrub</code>
+                    <definition>Percent shrub cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SnagL</code>
+                    <definition>Density (no./ha) of snags &gt;50-cm dbh, &gt;3-m tall</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SnagS</code>
+                    <definition>Density (no./ha) of snags 10-30cm dbh, &gt;3-m tall, all decay classes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Soft10</code>
+                    <definition>Density (no./ha) of snags 10-30cm dbh, &gt;3-m tall, decay classes 3-5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T1T45</code>
+                    <definition>Density of stems 2-10cm dbh/density of stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T1T5</code>
+                    <definition>Density of stems 2-10cm dbh/density of stems &gt;90cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot1</code>
+                    <definition>Density (no./ha) of stems 2-10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot1-5</code>
+                    <definition>Density (no./ha) of all stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot2</code>
+                    <definition>Density (no./ha) of stems 11-30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot2-5</code>
+                    <definition>Density (no./ha) of stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot3-5</code>
+                    <definition>Density )no./ha) of stems &gt;30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot4-5</code>
+                    <definition>Density (no./ha) of stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot5</code>
+                    <definition>Density (no./ha) of stems &gt;90cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TotSn</code>
+                    <definition>Density (no./ha) of snags &gt;10cm dbh, &gt;3-m tall, all decay classes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>na</code>
+                    <definition>Not applicable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.B3">
+          <attributeName>B3</attributeName>
+          <attributeDefinition>Var3 coefficient</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(10,5)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1E-05</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.0306</minimum>
+                  <maximum exclusive="false">0.1996</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="WE02701.VAR3">
+          <attributeName>VAR3</attributeName>
+          <attributeDefinition>Third variable</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CHDI</code>
+                    <definition>Canopy Height Diversity Index (see VHRDB report)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT1-5</code>
+                    <definition>Density (no./ha) of all conifer stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT2-3</code>
+                    <definition>Density (no./ha) of conifer stems 11-50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT2-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT3</code>
+                    <definition>Density (no./ha) of conifer stems 31-50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT3-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT4-5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT5</code>
+                    <definition>Density (no./ha) of conifer stems &gt;90cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT1</code>
+                    <definition>Density (no./ha) of hardwood stems 2-10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT1-5</code>
+                    <definition>Density (no./ha) of all hardwood stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT2</code>
+                    <definition>Density (no./ha) of hardwood stems 11-30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HT2-5</code>
+                    <definition>Density (no./ha) of harwdoos stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOGSS</code>
+                    <definition>Density (no./ha) of logs 10-30cm large-end diameter, decay classes 2-5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHT1-5</code>
+                    <definition>(density of hardwood stems/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PHT2-3</code>
+                    <definition>(density of hardwood stems 11-50cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot1</code>
+                    <definition>(density of stems 2-10cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot2</code>
+                    <definition>(density of stems 11-30cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot2-5</code>
+                    <definition>(density of stems &gt;10-cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot4</code>
+                    <definition>(density of stems 51-90cm dbh/ total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot4-5</code>
+                    <definition>(density of stems &gt;50cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTot5</code>
+                    <definition>(density of stems &gt;90cm dbh/total stem density)*100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Shrub</code>
+                    <definition>Percent shrub cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SnagL</code>
+                    <definition>Density (no./ha) of snags &gt;50-cm dbh, &gt;3-m tall</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SnagS</code>
+                    <definition>Density (no./ha) of snags 10-30cm dbh, &gt;3-m tall, all decay classes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Soft10</code>
+                    <definition>Density (no./ha) of snags 10-30cm dbh, &gt;3-m tall, decay classes 3-5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T1T45</code>
+                    <definition>Density of stems 2-10cm dbh/density of stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T1T5</code>
+                    <definition>Density of stems 2-10cm dbh/density of stems &gt;90cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot1</code>
+                    <definition>Density (no./ha) of stems 2-10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot1-5</code>
+                    <definition>Density (no./ha) of all stems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot2</code>
+                    <definition>Density (no./ha) of stems 11-30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot2-5</code>
+                    <definition>Density (no./ha) of stems &gt;10cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot3-5</code>
+                    <definition>Density )no./ha) of stems &gt;30cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot4-5</code>
+                    <definition>Density (no./ha) of stems &gt;50cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tot5</code>
+                    <definition>Density (no./ha) of stems &gt;90cm dbh</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TotSn</code>
+                    <definition>Density (no./ha) of snags &gt;10cm dbh, &gt;3-m tall, all decay classes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>na</code>
+                    <definition>Not applicable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="WE02701.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>WE02701.PROVENCE</attributeReference>
+            <attributeReference>WE02701.SPECIES</attributeReference>
+            <attributeReference>WE02701.TAXA</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="WE02701.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>WE02701.ABSENT</attributeReference>
+            <attributeReference>WE02701.B0</attributeReference>
+            <attributeReference>WE02701.B1</attributeReference>
+            <attributeReference>WE02701.CE</attributeReference>
+            <attributeReference>WE02701.CO</attributeReference>
+            <attributeReference>WE02701.FORMAT</attributeReference>
+            <attributeReference>WE02701.OM</attributeReference>
+            <attributeReference>WE02701.PRESENT</attributeReference>
+            <attributeReference>WE02701.PROVENCE</attributeReference>
+            <attributeReference>WE02701.SIGNIF</attributeReference>
+            <attributeReference>WE02701.SPECIES</attributeReference>
+            <attributeReference>WE02701.STCODE</attributeReference>
+            <attributeReference>WE02701.TAXA</attributeReference>
+            <attributeReference>WE02701.VAR1</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>60</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="percent" multiplierToSI="1" name="percent"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

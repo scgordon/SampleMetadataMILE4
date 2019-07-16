@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5513.2"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MV007</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/e1dcac713961e62c3aaad2816bbf7780</alternateIdentifier>
+    <title>Advanced Resolution Canopy FLOw (ARCFLO) experiment employing the SUbcanopy Sonic Anemometer Network (SUSAN) in WS01 of the HJ Andrews Experimental Forest, July-September 2012</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Christoph</givenName>
+        <givenName>K</givenName>
+        <surName>Thomas</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Professor, Micrometeorology; Associate Editor Water Resources Research; University of Bayreuth; Micrometeorology Group</deliveryPoint>
+        <city>Bayreuth</city>
+        <postalCode>95540</postalCode>
+        <country>Germany</country>
+      </address>
+      <phone>+49 (0) 921 55 2293</phone>
+      <electronicMailAddress>christoph.thomas@uni-bayreuth.de</electronicMailAddress>
+      <onlineUrl>http://www.bayceer.uni-bayreuth.de/meteo</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Christoph</givenName>
+        <givenName>K</givenName>
+        <surName>Thomas</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Professor, Micrometeorology; Associate Editor Water Resources Research; University of Bayreuth; Micrometeorology Group</deliveryPoint>
+        <city>Bayreuth</city>
+        <postalCode>95540</postalCode>
+        <country>Germany</country>
+      </address>
+      <phone>+49 (0) 921 55 2293</phone>
+      <electronicMailAddress>christoph.thomas@uni-bayreuth.de</electronicMailAddress>
+      <onlineUrl>http://www.bayceer.uni-bayreuth.de/meteo</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Drake</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>sdrake@coas.oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Kingzett</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>McGinity</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Chemistry and Physics teacher at Sherwood High</deliveryPoint>
+      </address>
+      <phone/>
+      <electronicMailAddress>jmcginity@sherwood.k12.or.us</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2017-06-29</pubDate>
+    <abstract>
+      <para>This dataset was collected during one of the ARCFLO (Advanced Resolution Canopy FLOw) experiment seriesâ field campaigns. This field campaign was carried out in WS1 of the HJ Andrews Experimental forest during July-September 2012 by the biomicrometeorology group, PI Christoph Thomas. The ARCFLO experiment series spanned a wide range of topographic conditions (flat, sloped, mountainous) and canopy architectures (grassland, orchard, open forest, dense forest) and was carried out between 2011 and 2014. It was funded through the NSF Career Award in Physical and Dynamical Meteorology to PI Christoph Thomas. The main goal of this project was to develop a novel improved framework to describe the airflow and its transport under weak-wind conditions for a continuous variation of overstory density and stratification. The objective is to i) identify forcing mechanisms of submeso motions, ii) evaluate the impact of plant canopies of different overstory density on the wind, temperature, and humidity fields, and iii) improve predictors for mixing in plant canopies that incorporate the important physical mechanisms. Observations were be made with a unique combination of new and standard techniques including optical fiber measurement of temperature structure, acoustic remote sensing, ultrasonic anemometers, and laser-illuminated flow visualizations.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Microclimate</keyword>
+      <keyword keywordType="theme">Wind speed and direction</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released to the public domain under the Creative Commons license CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/).   Creative Commons license CC0 1.0 - No Rights Reserved states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. </para>
+      <para>It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. </para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. </para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=MV007</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>WS01 of the HJ Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25773000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.24918000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.20729000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20421000</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-07-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-09-17</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Air exchange between forests and the lower atmosphere plays an important role for the transport of heat, moisture, momentum and other trace gases between the ground surface and the atmosphere, thereby directly impacting human life and the environment.  Much remains to be learned about the mechanisms of the air exchange within the canopy layer, and its interaction with the deeper atmospheric boundary layer.  The generally weak subcanopy winds and the mechanical barrier of the overstory render conceptual frameworks, such as commonly applied similarity theories, inadequate.  The common generation of turbulence by shear on a variety of time scales, poor exchange between the subcanopy and above-canopy air, and short-circuiting of the energy cascade are not included in similarity theory that forms the basis for turbulent fluxes in models.  Moreover, always-present background âsubmesoâ motions of spatial scales from tens of meters to several kilometers become important and lead to unpredictable sudden wind direction changes, intermittent mixing, and non-equilibrium turbulence.  No current physical concept describes the nature of these motions.  Cases of weak airflow in concert with limited vertical mixing also maintain high concentrations of contaminants near the surface, determined by poorly predicted within-canopy transport.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2017-06-28</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Uploaded metadata. Created SQL data file. Appended data files into data structure.  Ran QC. Appended data to SQL.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2017-06-29</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - MV007</para>
+          <para>Each subset of SUSAN (SUbcanopy Sonic ANemeometer) is comprised 4 Young 8100VRE UltraSonic Anemometers and 4 Vaisala HMP Thermohygrometers logging to a Campbell Scientific CR3000 Micrologger. Each of three SUSAN arrays is named by convention starting with a letter, âAâ, âBâ, or âCâ and each subunit is numbered 1 through 4. All Vaisala HMP thermohygrometers are model 155 except for units C3 and C4 which are model 45C. All thermohygrometers are housed in an electrically aspirated radiation shield.</para>
+          <para>For this experiment three SUSAN systems logged data at 20Hz and also logged data averaged at 1- minute intervals. Data was stored on 2-gigabyte SanDisk Extreme III flash cards by Campbell Scientific NL-155 Compact Flash Modules attached to each logger. Periodically, the flash card would be swapped so data could be uploaded from the flash card to a PC and then converted to ASCII format using the Campbell Scientific Card Convert program (a subunit of LoggerNet). </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Models/Algorithms - MV007</para>
+          <para>The sonic anemometer raw data (20 Hz) were processed post field collection using the Matlab based program BMMFLUX, written and developed by PI Christoph Thomas. During the processing, raw (20 Hz) data are checked according to instrument data quality flags and user-assigned plausibility thresholds: %% Plausibility limits for wind components (m/s) and sonic temperature (deg C) of raw signals: plaus_u  =   [-30,30]; plaus_v  =   [-30,30]; plaus_w  =   [-30,30]; plaus_T  =   [-30,50].</para>
+          <para>The observations from the thermohygrometers were not processed with BMMFLUX, but samples were aggregated into 1 min averages of air temperature and vapor pressure by the data logger. These logger-produced data were then combined with the 1-min averaged data output of BMMFLUX to yield the data described here.</para>
+          <para>Note: In the variable label, âunrotatedâ means recorded in the native sonic anemometers coordinate system (Ux, Uy, Uz as indicated in the manual).</para>
+          <para>The label ârotatedâ means that the winds were rotated into streamlines coordinate most suitable for micrometeorological purposes by performing two rotations (1: mean cross-wind equals zero m/s, 2: mean vertical motions equals zero m/s, for details see: Wilczak, J.M., Oncley, S.P., Stage, S.A., 2001. Sonic anemometer tilt correction algorithms. Boundary-Layer Meteorol. 99, 127â150.). Wind directions were also orrected for the instrument azimuth. The results are cylindrical coordinates commonly known as âwind speedâ and âwind directionâ. The wind directions were not corrected for magnetic declination (With a latitude of 44.2 N and longitude of 122.2 W the declination was given by (http://www.ngdc.noaa.gov/geomagmodels/Declination.jsp) on 7/27/2012 is 15 degrees, 35 minutes = 15.583 degrees). </para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>&lt;para&gt;&lt;/para&gt; &lt;para&gt;Sampling frequency: 1 minute&lt;/para&gt;</description>
+        </studyExtent>
+        <samplingDescription>
+          <para>This dataset here contains only the observations from the network of ultrasonic anemometers and associated aspirated thermohygrometers consisting of 12 stations total grouped into 3 x 4 stations (SUSAN ABC, 1234). SUSAN stands for âSUbcanopy Sonic Anemometer Networkâ. Station locations for the WS1 ARCFLO experiment were selected to capture the greatest extent of spatial variability of the airflow. The first subset of stations (SUSAN A1,A2,A3,A4) were deployed near the flux tower near the mouth of the WS1, the second subset of stations (SUSAN B1,B2,B3,B4) were deployed about 200m upslope in the vicinity of the creek, and the third subset of stations (SUSAN C1,C2,C3,C4) in close proximity to the confluence of the two smaller creeks in the upper part of WS1 approx. 1 km upstream. </para>
+          <para>With the exceptions of SUSAN A2, which was mounted on WS1 tower and SUSANs C1 and C2, which were mounted on a temporary 40ft tower, all SUSAN subunits were mounted on adjustable tripods to facilitate sonic leveling. SUSANs A and B were powered by line power whereas SUSAN C was powered by four AGM 12-volt batteries. These batteries were recharged every 4 to 6 days with a portable generator. </para>
+          <para>Sonics were connected to loggers with 300 ft of AGU 24 communications cable. Data was transmitted to the Campbell Sci. Cr3000 data loggers through RS-485 protocol and translated to RS-422 by CommFront 485-422 TTL converters contained within the logger weatherproof box. With this deployment configuration we aimed to capture individual submeso features as they propagated up or down the watershed past various sensors (see deployment map). </para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) A1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25671000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25671000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20648000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20648000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>518</altitudeMinimum>
+                <altitudeMaximum>518</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) A2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25729000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25729000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20680000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20680000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>495</altitudeMinimum>
+                <altitudeMaximum>495</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) A3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25773000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25773000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20705000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20705000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>450</altitudeMinimum>
+                <altitudeMaximum>450</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) A4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25656000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25656000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20729000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20729000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>511</altitudeMinimum>
+                <altitudeMaximum>511</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) B1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25486000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25486000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20610000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20610000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>381</altitudeMinimum>
+                <altitudeMaximum>381</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) B2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25457000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25457000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20586000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20586000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>513</altitudeMinimum>
+                <altitudeMaximum>513</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) B3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25493000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25493000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20588000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20588000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>509</altitudeMinimum>
+                <altitudeMaximum>509</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) B4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25488000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25488000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20595000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20595000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>508</altitudeMinimum>
+                <altitudeMaximum>508</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) C1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25055000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25055000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20508000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20508000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>588</altitudeMinimum>
+                <altitudeMaximum>588</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) C2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25055000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25055000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20508000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20508000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>588</altitudeMinimum>
+                <altitudeMaximum>588</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) C3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24918000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24918000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20448000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20448000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>593</altitudeMinimum>
+                <altitudeMaximum>593</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) C4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24937000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24937000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20421000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20421000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>578</altitudeMinimum>
+                <altitudeMaximum>578</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Subcanopy Sonic Anemometer Network (SUSAN) ARCFLO sampling sites</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25773000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24918000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20729000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20421000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>593</altitudeMinimum>
+                <altitudeMaximum>593</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <onlineUrl>http://fw.oregonstate.edu/content/sherri-johnson</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hannah</givenName>
+          <surName>Gosnell</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Geosciences;Oregon State University;260 Wilkinson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>541-737-1222</phone>
+        <electronicMailAddress>gosnellh@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/gosnell/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Matthew</givenName>
+          <givenName>G</givenName>
+          <surName>Betts</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201E Richardson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>(541) 737-3841</phone>
+        <electronicMailAddress>matt.betts@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://fes.forestry.oregonstate.edu/people?path=people/betts-matthew</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="MV00701">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>MV00701</entityName>
+      <entityDescription>Subcanopy Sonic Anemometer Network (SUSAN): </entityDescription>
+      <physical>
+        <objectName>MV00701.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5513/2/94fd2348b5c54d13adcf6bb71a86cddb</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2012-07-02</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2012-09-17</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="MV00701.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MV007</code>
+                    <definition>FSDB Database Code MV007</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity Number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.STATION">
+          <attributeName>STATION</attributeName>
+          <attributeDefinition>SUSAN Station Number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SUSAN_A1</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) A1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_A2</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) A2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_A3</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) A3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_A4</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) A4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_B1</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) B1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_B2</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) B2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_B3</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) B3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_B4</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) B4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_C1</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) C1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_C2</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) C2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_C3</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) C3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUSAN_C4</code>
+                    <definition>Subcanopy Sonic Anemometer Network (SUSAN) C4</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.DATETIME">
+          <attributeName>DATETIME</attributeName>
+          <attributeDefinition>Date and time in Pacific Standard Time (PST) of sensor reading</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">7/2/2010 12:20:00 PM</minimum>
+                  <maximum exclusive="false">9/17/2012 2:06:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.U_MEAN_ROT">
+          <attributeName>U_MEAN_ROT</attributeName>
+          <attributeDefinition>mean horizontal wind speed</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters per second</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.PHI_MEAN">
+          <attributeName>PHI_MEAN</attributeName>
+          <attributeDefinition>mean horizontal wind direction</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees azimuth</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">360.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.W_MEAN_UNROT">
+          <attributeName>W_MEAN_UNROT</attributeName>
+          <attributeDefinition>mean vertical wind speed, unrotated</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters per second</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.6700</minimum>
+                  <maximum exclusive="false">1.1400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.W_STD_ROT">
+          <attributeName>W_STD_ROT</attributeName>
+          <attributeDefinition>standard deviation of the vertical wind speed, rotated</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters per second</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.TS_MEAN">
+          <attributeName>TS_MEAN</attributeName>
+          <attributeDefinition>mean sonic air temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.2600</minimum>
+                  <maximum exclusive="false">39.6700</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.T_HMP">
+          <attributeName>T_HMP</attributeName>
+          <attributeDefinition>mean dry-bulb air temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.8700</minimum>
+                  <maximum exclusive="false">38.8100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00701.E_HMP">
+          <attributeName>E_HMP</attributeName>
+          <attributeDefinition>mean air vapor pressure</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilopascal</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5130</minimum>
+                  <maximum exclusive="false">2.6950</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="MV00701.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>MV00701.STATION</attributeReference>
+            <attributeReference>MV00701.DATETIME</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="MV00701.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>MV00701.DBCODE</attributeReference>
+            <attributeReference>MV00701.ENTITY</attributeReference>
+            <attributeReference>MV00701.STATION</attributeReference>
+            <attributeReference>MV00701.DATETIME</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>1280756</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg az" id="degrees azimuth"
+          name="azimuthDegree" parentSI="unknown" unitType="azimuth">
+          <stmml:description>degrees azimuth (0-360)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m/sec" id="meters per second"
+          multiplierToSI="1" name="meterPerSecond"
+          parentSI="meterPerSecond" unitType="speed">
+          <stmml:description>meters per second</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="kpa" id="kilopascal"
+          multiplierToSI="1000" name="kilopascal" parentSI="pascal" unitType="pressure">
+          <stmml:description>kilopascal</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
